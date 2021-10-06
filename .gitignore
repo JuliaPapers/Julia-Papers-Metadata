@@ -1,0 +1,8 @@
+# bibref temp files
+*.bib.bak
+*.bib.sav
+
+# PDF/HTML
+PDFs/
+*.pdf
+*.html
