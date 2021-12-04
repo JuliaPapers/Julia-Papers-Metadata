@@ -109,6 +109,28 @@
   keywords  = {Algorithm design and analysis, Optimization, Computational modeling, Mathematical model, Linear algebra, Measurement, Database languages, Graph analysis, streaming graphs, triangle counting, GraphBLAS, graph algorithm building blocks (GABB)},
 }
 
+@Article{Peng2021,
+  author     = {Peng, Ronghua and Han, Bo and Liu, Yajun and Hu, Xiangyun},
+  journal    = {GEOPHYSICS},
+  title      = {{EM3DANI}: {A} {Julia} package for fully anisotropic {3D} forward modeling of electromagnetic data},
+  year       = {2021},
+  issn       = {0016-8033},
+  month      = sep,
+  number     = {5},
+  pages      = {F49--F60},
+  volume     = {86},
+  abstract   = {Forward modeling is vital for 3D inversion and interpretation of electromagnetic (EM) data in anisotropic media, which is one of the major challenges in the field of EM geophysics. However, there are few freely available 3D codes that are capable of modeling EM responses in fully anisotropic media. In addition, most existing 3D EM codes are written in low-level languages (LLs) such as C and Fortran, making them difficult to read, maintain, and extend. Taking advantage of recent progress in computer technology and numerical methods, we have developed an open-source package for forward modeling of frequency-domain EM fields in a fully 3D anisotropic earth (EM3DANI) using the Julia language, a relatively young, high-level programming language with a focus on high performance. Based on a mimetic finite-volume discretization of the governing equations, the modeling algorithm is expressed in an abstract form in terms of matrices/vectors and thus can be easily implemented by using any high-level language commonly used for numerical computing. Existing libraries written in LLs can be easily integrated into a Julia code without the so-called two-language problem; thus, we have exploited several mature third-party packages to deal with computationally intensive parts of the forward modeling, which guarantees high stability and efficiency. We have elaborated the structure of the package, paying special attention to code usability, readability, and extendability, while striving to retain versatility and high performance. The effectiveness of the code is demonstrated through two 1D synthetic examples for magnetotelluric and controlled-source EM (CSEM) problems, respectively. High accuracy and efficiency can be achieved for both 1D examples. Furthermore, we have developed a 3D example mimicking a marine CSEM survey scenario for hydrocarbon exploration. The simulation results indicate that the effect of the anisotropy on forward responses is significant and can be comparable to that of the target reservoir.},
+  comment    = {https://github.com/CUG-EMI/EM3DANI},
+  doi        = {10.1190/geo2020-0489.1},
+  file       = {Full Text PDF:https\://library.seg.org/doi/pdf/10.1190/geo2020-0489.1:application/pdf},
+  groups     = {paper-with-code},
+  keywords   = {magnetotelluric, CSEM, modeling, 3D, anisotropy},
+  publisher  = {Society of Exploration Geophysicists},
+  shorttitle = {{EM3DANI}},
+  url        = {https://library.seg.org/doi/10.1190/geo2020-0489.1},
+  urldate    = {2021-12-04},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
