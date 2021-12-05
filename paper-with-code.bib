@@ -650,6 +650,59 @@
   urldate    = {2021-12-05},
 }
 
+@Article{Schaal2017,
+  author  = {Schaal, Emily},
+  journal = {Undergraduate Honors Theses},
+  title   = {Center {Manifold} {Theory} and {Computation} {Using} a {Forward} {Backward} {Approach}},
+  year    = {2017},
+  month   = apr,
+  url     = {https://scholarworks.wm.edu/honorstheses/1129},
+}
+
+@Article{Widmann2017,
+  author   = {Widmann, David},
+  title    = {Quorum {Sensing} of {Pseudomonas} putida in {Continuous} {Cultures}},
+  year     = {2017},
+  abstract = {Bacteria of certain species communicate with each other to organise group-beneficial collective behaviour such as bioluminescence or swarming motility. The cell-to-cell communication of these bacteria is based on a cell-density dependent mechanism called quorum sensing (QS). For this process different mathematical models in the form of ordinary differential equations (ODEs), partial differential equations (PDEs), and delay differential equations (DDEs) have been proposed and studied in literature. In this thesis we consider a mathematical model of QS in {\textless}em{\textgreater}Pseudomonas putida{\textless}/em{\textgreater} IsoF ({\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF) which was published by Buddrus-Schiemann et al. They conducted growth experiments of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF under steady state conditions in a chemostat and could describe their measurements by a mathematical QS model of DDEs. We discuss the motivation of this model, building on well-known mathematical models for chemostat experiments and generic QS models. Moreover, we derive a modification of the QS model which accounts for subpopulations of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF with different roles in the QS system. Buddrus-Schiemann et al. speculated about the existence of these subpopulations which could explain some of their surprising findings. After a short theoretical analysis of both QS models we investigate which numerical methods are suited for computing simulations of these models. We provide a general introduction to numerical DDE solvers and present DelayDiffEq.jl, an improved and rewritten DDE solver in Julia. The last part of this thesis is dedicated to the inverse problems of the QS models. We develop a suitable objective function for parameter estimation and apply regularization and global optimisation to deal with the ill-conditioning and non-convexity of the parameter estimation problem. Moreover, we determine structurally and practically non-identifiable parameters. Our parameter estimation yields slightly different parameter estimates that fit the experimental data better than the parameters published by Buddrus-Schiemann et al. However, the parameter estimates do not support the hypothesis of two subpopulations.},
+  comment  = {https://github.com/SciML/DelayDiffEq.jl},
+  url      = {https://mediatum.ub.tum.de/1452085?style=full_text},
+  urldate  = {2021-12-05},
+}
+
+@Article{Liang2021,
+  author   = {Liang, Jane W. and Sen, Saunak},
+  journal  = {arXiv:1712.05767 [stat]},
+  title    = {Sparse matrix linear models for structured high-throughput data},
+  year     = {2021},
+  month    = feb,
+  note     = {arXiv: 1712.05767},
+  abstract = {Recent technological advancements have led to the rapid generation of high-throughput biological data, which can be used to address novel scientific questions in broad areas of research. These data can be thought of as a large matrix with covariates annotating both rows and columns of this matrix. Matrix linear models provide a convenient way for modeling such data. In many situations, sparse estimation of these models is desired. We present fast, general methods for fitting sparse matrix linear models to structured high-throughput data. We induce model sparsity using an L\$\_1\$ penalty and consider the case when the response matrix and the covariate matrices are large. Due to data size, standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression scenario. By leveraging matrix properties in the structure of our model, we develop several fast estimation algorithms (coordinate descent, FISTA, and ADMM) and discuss their trade-offs. We evaluate our method's performance on simulated data, E. coli chemical genetic screening data, and two Arabidopsis genetic datasets with multivariate responses. Our algorithms have been implemented in the Julia programming language and are available at https://github.com/senresearch/MatrixLMnet.jl.},
+  annote   = {Comment: 35 pages, 7 figures},
+  file     = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1712.05767.pdf:application/pdf},
+  keywords = {Statistics - Computation},
+  url      = {http://arxiv.org/abs/1712.05767},
+  urldate  = {2021-12-06},
+}
+
+@Article{Lin2017,
+  author   = {Lin, Youzuo and Le, Ellen B. and O'Malley, Daniel and Vesselinov, Velimir V. and Bui-Thanh, Tan},
+  journal  = {Water Resources Research},
+  title    = {Large-scale inverse model analyses employing fast randomized data reduction},
+  year     = {2017},
+  issn     = {1944-7973},
+  number   = {8},
+  pages    = {6784--6801},
+  volume   = {53},
+  abstract = {When the number of observations is large, it is computationally challenging to apply classical inverse modeling techniques. We have developed a new computationally efficient technique for solving inverse problems with a large number of observations (e.g., on the order of 107 or greater). Our method, which we call the randomized geostatistical approach (RGA), is built upon the principal component geostatistical approach (PCGA). We employ a data reduction technique combined with the PCGA to improve the computational efficiency and reduce the memory usage. Specifically, we employ a randomized numerical linear algebra technique based on a so-called “sketching” matrix to effectively reduce the dimension of the observations without losing the information content needed for the inverse analysis. In this way, the computational and memory costs for RGA scale with the information content rather than the size of the calibration data. Our algorithm is coded in Julia and implemented in the MADS open-source high-performance computational framework (http://mads.lanl.gov). We apply our new inverse modeling method to invert for a synthetic transmissivity field. Compared to a standard geostatistical approach (GA), our method is more efficient when the number of observations is large. Most importantly, our method is capable of solving larger inverse problems than the standard GA and PCGA approaches. Therefore, our new model inversion method is a powerful tool for solving large-scale inverse problems. The method can be applied in any field and is not limited to hydrogeological applications such as the characterization of aquifer heterogeneity.},
+  comment  = {https://github.com/madsjulia/Mads.jl/},
+  doi      = {10.1002/2016WR020299},
+  file     = {Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016WR020299:application/pdf},
+  keywords = {hydraulic inverse modeling, data reduction, randomization, geostatistical inversion},
+  language = {en},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/2016WR020299},
+  urldate  = {2021-12-06},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
