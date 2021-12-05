@@ -11,11 +11,10 @@
   volume    = {11},
   abstract  = {Estimation of parameters of a diffusion based on discrete time observations poses a difficult problem due to the lack of a closed form expression for the likelihood. From a Bayesian computational perspective it can be casted as a missing data problem where the diffusion bridges in between discrete-time observations are missing. The computational problem can then be dealt with using a Markov-chain Monte-Carlo method known as data-augmentation. If unknown parameters appear in the diffusion coefficient, direct implementation of data-augmentation results in a Markov chain that is reducible. Furthermore, data-augmentation requires efficient sampling of diffusion bridges, which can be difficult, especially in the multidimensional case. We present a general framework to deal with with these problems that does not rely on discretisation. The construction generalises previous approaches and sheds light on the assumptions necessary to make these approaches work. We define a random-walk type Metropolis-Hastings sampler for updating diffusion bridges. Our methods are illustrated using guided proposals for sampling diffusion bridges. These are Markov processes obtained by adding a guiding term to the drift of the diffusion. We give general guidelines on the construction of these proposals and introduce a time change and scaling of the guided proposal that reduces discretisation error. Numerical examples demonstrate the performance of our methods.},
   doi       = {10.1214/17-EJS1290},
-  file      = {:PDFs/Meulen2017 - Bayesian Estimation of Discretely Observed Multi Dimensional Diffusion Processes Using Guided Proposals.pdf:PDF},
+  file      = {:Meulen2017 - Bayesian Estimation of Discretely Observed Multi Dimensional Diffusion Processes Using Guided Proposals.pdf:PDF},
   groups    = {paper-with-code},
   keywords  = {Data augmentation, discretisation of path integral, FitzHugh-Nagumo model, innovation process, linear process, Multidimensional diffusion bridge, non-centred parametrisation},
   publisher = {Institute of Mathematical Statistics and Bernoulli Society},
-  url       = {https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-11/issue-1/Bayesian-estimation-of-discretely-observed-multi-dimensional-diffusion-processes-using/10.1214/17-EJS1290.full},
   urldate   = {2021-10-06},
 }
 
@@ -75,7 +74,6 @@
   groups    = {paper-with-code},
   keywords  = {signed graphs, Gremban expansion, graph Laplacian, LAMG},
   publisher = {Society for Industrial and Applied Mathematics},
-  url       = {https://epubs.siam.org/doi/abs/10.1137/16M1082433},
   urldate   = {2021-10-06},
 }
 
@@ -92,7 +90,6 @@
   doi      = {10.1137/16M1093896},
   groups   = {paper-with-code},
   language = {en},
-  url      = {https://epubs.siam.org/doi/10.1137/16M1093896},
   urldate  = {2021-10-06},
 }
 
@@ -127,7 +124,6 @@
   keywords   = {magnetotelluric, CSEM, modeling, 3D, anisotropy},
   publisher  = {Society of Exploration Geophysicists},
   shorttitle = {{EM3DANI}},
-  url        = {https://library.seg.org/doi/10.1190/geo2020-0489.1},
   urldate    = {2021-12-04},
 }
 
@@ -529,7 +525,6 @@
   keywords  = {Julia, ordinary differential equations, stochastic differential equations, partial differential equations, multiple dispatch, metaprogramming, high-precision, multithreading},
   language  = {en},
   publisher = {Ubiquity Press},
-  url       = {http://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/},
   urldate   = {2021-12-05},
 }
 
@@ -548,7 +543,6 @@
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00458.pdf:application/pdf},
   language   = {en},
   shorttitle = {{DynamicalBilliards}.jl},
-  url        = {https://joss.theoj.org/papers/10.21105/joss.00458},
   urldate    = {2021-12-05},
 }
 
@@ -567,7 +561,6 @@
   file      = {Full Text PDF:https\://pubsonline.informs.org/doi/pdf/10.1287/opre.2018.1790:application/pdf},
   keywords  = {conjoint analysis, geometric methods, Bayesian models, mixed-integer programming},
   publisher = {INFORMS},
-  url       = {https://pubsonline.informs.org/doi/10.1287/opre.2018.1790},
   urldate   = {2021-12-05},
 }
 
@@ -604,7 +597,6 @@
   file      = {Full Text PDF:https\://projecteuclid.org/journals/brazilian-journal-of-probability-and-statistics/volume-34/issue-3/Nonparametric-Bayesian-estimation-of-a-H%c3%b6lder-continuous-diffusion-coefficient/10.1214/19-BJPS433.pdf:application/pdf},
   keywords  = {diffusion coefficient, Gaussian likelihood, non-parametric Bayesian estimation, Posterior contraction rate, pseudo-likelihood, Stochastic differential equation, Volatility},
   publisher = {Brazilian Statistical Association},
-  url       = {https://projecteuclid.org/journals/brazilian-journal-of-probability-and-statistics/volume-34/issue-3/Nonparametric-Bayesian-estimation-of-a-H%c3%b6lder-continuous-diffusion-coefficient/10.1214/19-BJPS433.full},
   urldate   = {2021-12-05},
 }
 
@@ -643,7 +635,6 @@
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00204.pdf:application/pdf},
   language   = {en},
   shorttitle = {Weave.jl},
-  url        = {https://joss.theoj.org/papers/10.21105/joss.00204},
   urldate    = {2021-12-05},
 }
 
@@ -667,18 +658,17 @@
 }
 
 @Article{Liang2021,
-  author   = {Liang, Jane W. and Sen, Saunak},
-  journal  = {arXiv:1712.05767 [stat]},
-  title    = {Sparse matrix linear models for structured high-throughput data},
-  year     = {2021},
-  month    = feb,
-  note     = {arXiv: 1712.05767},
-  abstract = {Recent technological advancements have led to the rapid generation of high-throughput biological data, which can be used to address novel scientific questions in broad areas of research. These data can be thought of as a large matrix with covariates annotating both rows and columns of this matrix. Matrix linear models provide a convenient way for modeling such data. In many situations, sparse estimation of these models is desired. We present fast, general methods for fitting sparse matrix linear models to structured high-throughput data. We induce model sparsity using an L\$\_1\$ penalty and consider the case when the response matrix and the covariate matrices are large. Due to data size, standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression scenario. By leveraging matrix properties in the structure of our model, we develop several fast estimation algorithms (coordinate descent, FISTA, and ADMM) and discuss their trade-offs. We evaluate our method's performance on simulated data, E. coli chemical genetic screening data, and two Arabidopsis genetic datasets with multivariate responses. Our algorithms have been implemented in the Julia programming language and are available at https://github.com/senresearch/MatrixLMnet.jl.},
-  annote   = {Comment: 35 pages, 7 figures},
-  file     = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1712.05767.pdf:application/pdf},
-  keywords = {Statistics - Computation},
-  url      = {http://arxiv.org/abs/1712.05767},
-  urldate  = {2021-12-06},
+  author        = {Liang, Jane W. and Sen, Saunak},
+  title         = {Sparse matrix linear models for structured high-throughput data},
+  year          = {2021},
+  month         = feb,
+  abstract      = {Recent technological advancements have led to the rapid generation of high-throughput biological data, which can be used to address novel scientific questions in broad areas of research. These data can be thought of as a large matrix with covariates annotating both rows and columns of this matrix. Matrix linear models provide a convenient way for modeling such data. In many situations, sparse estimation of these models is desired. We present fast, general methods for fitting sparse matrix linear models to structured high-throughput data. We induce model sparsity using an L\$\_1\$ penalty and consider the case when the response matrix and the covariate matrices are large. Due to data size, standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression scenario. By leveraging matrix properties in the structure of our model, we develop several fast estimation algorithms (coordinate descent, FISTA, and ADMM) and discuss their trade-offs. We evaluate our method's performance on simulated data, E. coli chemical genetic screening data, and two Arabidopsis genetic datasets with multivariate responses. Our algorithms have been implemented in the Julia programming language and are available at https://github.com/senresearch/MatrixLMnet.jl.},
+  annote        = {Comment: 35 pages, 7 figures},
+  archiveprefix = {arxiv},
+  eprint        = {1712.05767},
+  file          = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1712.05767.pdf:application/pdf},
+  keywords      = {Statistics - Computation},
+  primaryclass  = {stat},
 }
 
 @Article{Lin2017,
@@ -696,7 +686,6 @@
   file     = {Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016WR020299:application/pdf},
   keywords = {hydraulic inverse modeling, data reduction, randomization, geostatistical inversion},
   language = {en},
-  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/2016WR020299},
   urldate  = {2021-12-06},
 }
 
