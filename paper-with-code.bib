@@ -168,15 +168,6 @@
   urldate    = {2021-12-04},
 }
 
-@InProceedings{Baumgartner2017,
-  author    = {Baumgartner, Andreas and Bauschert, Thomas and Koster, Arie M. C. A. and Reddy, Varun S. and {IEEE}},
-  booktitle = {{{GLOBECOM}} 2017 - 2017 {{IEEE GLOBAL COMMUNICATIONS CONFERENCE}}},
-  title     = {Optimisation {{Models}} for {{Robust}} and {{Survivable Network Slice Design}}: A {{Comparative Analysis}}},
-  year      = {2017},
-  abstract  = {Techniques like Network Functions Virtualisation and Software Defined Networking provide a new dimension of flexibility in the deployment, operation and maintenance of telecommunication networks. They also enable the realisation of multiple virtual networks (multi-tenancy) on a common substrate network infrastructure. Provisioning such virtual networks requires efficient resource allocation mechanisms so that the utility of the substrate infrastructure provider can be maximised. In this work, we first outline a mathematical model for the general network slice design problem and extend it to cope with traffic uncertainties. We employ the F-robust uncertainty set [1], [2] to model the uncertainties in the traffic demands. Furthermore, we add survivability aspects to our model by protecting the network slice against single substrate network element (node/link) failures. Finally, both survivability and traffic robustness approaches are considered simultaneously and we present two different optimisation models. A performance evaluation is carried out comparing the different robust and survivable models with their non-robust non-survivable counterpart using network topology examples from SNDlib.},
-  isbn      = {2334-0983},
-}
-
 @Article{BonnetLebrun2017,
   author   = {{Bonnet-Lebrun}, Anne-Sophie and Manica, Andrea and Eriksson, Anders and Rodrigues, Ana S. L.},
   journal  = {EVOLUTION},
@@ -189,6 +180,7 @@
   volume   = {71},
   abstract = {Community characteristics reflect past ecological and evolutionary dynamics. Here, we investigate whether it is possible to obtain realistically shaped modeled communities-that is with phylogenetic trees and species abundance distributions shaped similarly to typical empirical bird and mammal communities-from neutral community models. To test the effect of gene flow, we contrasted two spatially explicit individual-based neutral models: one with protracted speciation, delayed by gene flow, and one with point mutation speciation, unaffected by gene flow. The former produced more realistic communities (shape of phylogenetic tree and species-abundance distribution), consistent with gene flow being a key process in macro-evolutionary dynamics. Earlier models struggled to capture the empirically observed branching tempo in phylogenetic trees, as measured by the gamma statistic. We show that the low gamma values typical of empirical trees can be obtained in models with protracted speciation, in preequilibrium communities developing from an initially abundant and widespread species. This was even more so in communities sampled incompletely, particularly if the unknown species are the youngest. Overall, our results demonstrate that the characteristics of empirical communities that we have studied can, to a large extent, be explained through a purely neutral model under preequilibrium conditions.},
   doi      = {10.1111/evo.13228},
+  groups   = {paper-with-code},
 }
 
 @Article{Cances2017,
@@ -202,20 +194,6 @@
   volume   = {58},
   abstract = {We give an exact formulation for the transport coefficients of incommensurate two-dimensional atomic multilayer systems in the tight-binding approximation. This formulation is based upon the C* algebra framework introduced by Bellissard and collaborators [Coherent and Dissipative Transport in Aperiodic Solids, Lecture Notes in Physics (Springer, 2003), Vol. 597, pp. 413-486 and J. Math. Phys. 35(10), 5373-5451 (1994)] to study aperiodic solids (disordered crystals, quasicrystals, and amorphous materials), notably in the presence of magnetic fields (quantum Hall effect). We also present numerical approximations and test our methods on a one-dimensional incommensurate bilayer system. Published by AIP Publishing.},
   doi      = {10.1063/1.4984041},
-}
-
-@Article{Chen2017,
-  author   = {Chen, Yong and Cai, Yiyu and Zheng, Jianmin and Thalmann, Daniel},
-  journal  = {IEEE TRANSACTIONS ON ROBOTICS},
-  title    = {Accurate and {{Efficient Approximation}} of {{Clothoids Using Bezier Curves}} for {{Path Planning}}},
-  year     = {2017},
-  issn     = {1552-3098},
-  month    = oct,
-  number   = {5},
-  pages    = {1242--1247},
-  volume   = {33},
-  abstract = {An accurate and efficient clothoid approximation approach is presented in this paper using Bezier curves based on the minimization of curvature profile difference. Compared with existing methods, the proposed approach is able to guarantee higher order geometric continuity with smaller approximation error in terms of position, orientation, and curvature. The approximation scheme takes place in three stages. First, a subset of clothoids with specific winding angle constraints referred to as elementary clothoids is approximated using quintic Bezier curves. Then, a basic clothoid defined in the first quadrant is formulated, which is composed of a series of transformed elementary clothoids. An adaptive sampling strategy is applied to ensure that the resulting Bezier segments are computed within a specified accuracy and all the required information can be obtained offline and stored in a lookup table. Finally, a general clothoid with arbitrary parameters can be conveniently approximated based on the lookup table through appropriate geometric transformations. A comparison with the recent circular interpolation and rational Bezier curve based approximation shows that the proposed approach is able to achieve equivalent or greater computational efficiency in most scenarios.},
-  doi      = {10.1109/TRO.2017.2699670},
 }
 
 @Article{Chun2017,
@@ -282,7 +260,9 @@
   pages    = {295--320},
   volume   = {59},
   abstract = {JuMP is an open-source modeling language that allows users to express a wide range of optimization problems (linear, mixed-integer, quadratic, conic-quadratic, semidefinite, and nonlinear) in a high-level, algebraic syntax. JuMP takes advantage of advanced features of the Julia programming language to offer unique functionality while achieving performance on par with commercial modeling tools for standard tasks. In this work we will provide benchmarks, present the novel aspects of the implementation, and discuss how JuMP can be extended to new problem classes and composed with state-of-the-art tools for visualization and interactivity.},
+  comment  = {https://github.com/jump-dev/JuMP.jl},
   doi      = {10.1137/15M1020575},
+  groups   = {paper-with-code, compat-with-LTS},
 }
 
 @Article{Dussault2017,
@@ -569,7 +549,7 @@
 }
 
 @Article{Bertsimas2019,
-  author    = {Bertsimas, Dimitris and Mi?i?, Velibor V.},
+  author    = {Bertsimas, Dimitris and Mišić, Velibor V.},
   journal   = {Operations Research},
   title     = {Exact {First}-{Choice} {Product} {Line} {Optimization}},
   year      = {2019},
@@ -579,8 +559,10 @@
   pages     = {651--670},
   volume    = {67},
   abstract  = {A fundamental problem faced by firms is that of product line design: given a set of candidate products that may be offered to a collection of customers, what subset of those products should be offered to maximize the profit that is realized when customers make purchases according to their preferences? In this paper, we consider the product line design problem when customers choose according to a first-choice rule and present a new mixed-integer optimization formulation of the problem. We theoretically analyze the strength of our formulation and show that it is stronger than alternative formulations that have been proposed in the literature, thus contributing to a unified understanding of the different formulations for this problem. We also present a novel solution approach for solving our formulation at scale, based on Benders decomposition, which exploits the surprising fact that Benders cuts for both the relaxation and the integer problem can be generated in a computationally efficient manner. We demonstrate the value of our formulation and Benders decomposition approach through two sets of experiments. In the first, we use synthetic instances to show that our formulation is computationally tractable and can be solved an order of magnitude faster for small- to medium-scale instances than the alternate, previously proposed formulations. In the second, we consider a previously studied product line design instance based on a real conjoint data set, involving over 3,000 candidate products and over 300 respondents. We show that this problem, which required a week of computation time to solve in prior work, is solved by our approach to full optimality in approximately 10 minutes.  The e-companion is available at https://doi.org/10.1287/opre.2018.1825.},
+  comment   = {https://github.com/vvmisic/optimalPLD/},
   doi       = {10.1287/opre.2018.1825},
   file      = {Full Text PDF:https\://pubsonline.informs.org/doi/pdf/10.1287/opre.2018.1825:application/pdf},
+  groups    = {paper-with-code},
   keywords  = {product line design, first-choice models, mixed-integer optimization, Benders decomposition},
   publisher = {INFORMS},
   urldate   = {2021-12-05},
@@ -589,7 +571,7 @@
 @Article{Gugushvili2020,
   author    = {Gugushvili, Shota and Meulen, Frank van der and Schauer, Moritz and Spreij, Peter},
   journal   = {Brazilian Journal of Probability and Statistics},
-  title     = {Nonparametric {Bayesian} estimation of a {H?lder} continuous diffusion coefficient},
+  title     = {Nonparametric {Bayesian} estimation of a {Hölder} continuous diffusion coefficient},
   year      = {2020},
   issn      = {0103-0752},
   month     = aug,
