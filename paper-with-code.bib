@@ -519,9 +519,11 @@
   pages     = {15},
   volume    = {5},
   abstract  = {DifferentialEquations.jl is a package for solving differential equations in Julia. It covers discrete equations (function maps, discrete stochastic (Gillespie/Markov) simulations), ordinary differential equations, stochastic differential equations, algebraic differential equations, delay differential equations, hybrid differential equations, jump diffusions, and (stochastic) partial differential equations. Through extensive use of multiple dispatch, metaprogramming, plot recipes, foreign function interfaces (FFI), and call-overloading, DifferentialEquations.jl offers a unified user interface to solve and analyze various forms of differential equations while not sacrificing features or performance. Many modern features are integrated into the solvers, such as allowing arbitrary user-defined number systems for high-precision and arithmetic with physical units, built-in multithreading and parallelism, and symbolic calculation of Jacobians. Integrated into the package is an algorithm testing and benchmarking suite to both ensure accuracy and serve as an easy way for researchers to develop and distribute their own methods. Together, these features build a highly extendable suite which is feature-rich and highly performant.  Funding statement: This work was partially supported by NIH grants P50GM76516 and R01GM107264 and NSF grants DMS1562176 and DMS1161621. This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant No. DGE-1321846, the National Academies of Science, Engineering, and Medicine via the Ford Foundation, and the National Institutes of Health Award T32 EB009418. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the NIH.},
+  comment   = {https://github.com/SciML/DifferentialEquations.jl},
   copyright = {Authors who publish with this journal agree to the following terms: Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a Creative Commons Attribution License that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal. Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal. Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See The Effect of Open Access ). All third-party images reproduced on this journal are shared under Educational Fair Use. For more information on Educational Fair Use , please see this useful checklist prepared by Columbia University Libraries . All copyright of third-party content posted here for research purposes belongs to its original owners. Unless otherwise stated all references to characters and comic art presented on this journal are ?, ? or ? of their respective owners. No challenge to any owner’s rights is intended or should be inferred.},
   doi       = {10.5334/jors.151},
   file      = {Full Text PDF:http\://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/galley/245/download/:application/pdf},
+  groups    = {paper-with-code, compat-with-LTS},
   keywords  = {Julia, ordinary differential equations, stochastic differential equations, partial differential equations, multiple dispatch, metaprogramming, high-precision, multithreading},
   language  = {en},
   publisher = {Ubiquity Press},
@@ -539,8 +541,10 @@
   pages      = {458},
   volume     = {2},
   abstract   = {Datseris, (2017), DynamicalBilliards.jl: An easy-to-use, modular and extendable Julia package for Dynamical Billiard systems in two dimensions., Journal of Open Source Software, 2(19), 458, doi:10.21105/joss.00458},
+  comment    = {https://github.com/JuliaDynamics/DynamicalBilliards.jl},
   doi        = {10.21105/joss.00458},
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00458.pdf:application/pdf},
+  groups     = {paper-with-code},
   language   = {en},
   shorttitle = {{DynamicalBilliards}.jl},
   urldate    = {2021-12-05},
@@ -631,8 +635,10 @@
   pages      = {204},
   volume     = {2},
   abstract   = {Pastell, (2017), Weave.jl: Scientific Reports Using Julia, Journal of Open Source Software, 2(11), 204, doi:10.21105/joss.00204},
+  comment    = {https://github.com/JunoLab/Weave.jl},
   doi        = {10.21105/joss.00204},
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00204.pdf:application/pdf},
+  groups     = {compat-with-LTS, paper-with-code},
   language   = {en},
   shorttitle = {Weave.jl},
   urldate    = {2021-12-05},
@@ -653,6 +659,7 @@
   year     = {2017},
   abstract = {Bacteria of certain species communicate with each other to organise group-beneficial collective behaviour such as bioluminescence or swarming motility. The cell-to-cell communication of these bacteria is based on a cell-density dependent mechanism called quorum sensing (QS). For this process different mathematical models in the form of ordinary differential equations (ODEs), partial differential equations (PDEs), and delay differential equations (DDEs) have been proposed and studied in literature. In this thesis we consider a mathematical model of QS in {\textless}em{\textgreater}Pseudomonas putida{\textless}/em{\textgreater} IsoF ({\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF) which was published by Buddrus-Schiemann et al. They conducted growth experiments of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF under steady state conditions in a chemostat and could describe their measurements by a mathematical QS model of DDEs. We discuss the motivation of this model, building on well-known mathematical models for chemostat experiments and generic QS models. Moreover, we derive a modification of the QS model which accounts for subpopulations of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF with different roles in the QS system. Buddrus-Schiemann et al. speculated about the existence of these subpopulations which could explain some of their surprising findings. After a short theoretical analysis of both QS models we investigate which numerical methods are suited for computing simulations of these models. We provide a general introduction to numerical DDE solvers and present DelayDiffEq.jl, an improved and rewritten DDE solver in Julia. The last part of this thesis is dedicated to the inverse problems of the QS models. We develop a suitable objective function for parameter estimation and apply regularization and global optimisation to deal with the ill-conditioning and non-convexity of the parameter estimation problem. Moreover, we determine structurally and practically non-identifiable parameters. Our parameter estimation yields slightly different parameter estimates that fit the experimental data better than the parameters published by Buddrus-Schiemann et al. However, the parameter estimates do not support the hypothesis of two subpopulations.},
   comment  = {https://github.com/SciML/DelayDiffEq.jl},
+  groups   = {paper-with-code, compat-with-LTS},
   url      = {https://mediatum.ub.tum.de/1452085?style=full_text},
   urldate  = {2021-12-05},
 }
@@ -665,8 +672,10 @@
   abstract      = {Recent technological advancements have led to the rapid generation of high-throughput biological data, which can be used to address novel scientific questions in broad areas of research. These data can be thought of as a large matrix with covariates annotating both rows and columns of this matrix. Matrix linear models provide a convenient way for modeling such data. In many situations, sparse estimation of these models is desired. We present fast, general methods for fitting sparse matrix linear models to structured high-throughput data. We induce model sparsity using an L\$\_1\$ penalty and consider the case when the response matrix and the covariate matrices are large. Due to data size, standard methods for estimation of these penalized regression models fail if the problem is converted to the corresponding univariate regression scenario. By leveraging matrix properties in the structure of our model, we develop several fast estimation algorithms (coordinate descent, FISTA, and ADMM) and discuss their trade-offs. We evaluate our method's performance on simulated data, E. coli chemical genetic screening data, and two Arabidopsis genetic datasets with multivariate responses. Our algorithms have been implemented in the Julia programming language and are available at https://github.com/senresearch/MatrixLMnet.jl.},
   annote        = {Comment: 35 pages, 7 figures},
   archiveprefix = {arxiv},
+  comment       = {https://github.com/senresearch/MatrixLMnet.jl},
   eprint        = {1712.05767},
   file          = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1712.05767.pdf:application/pdf},
+  groups        = {paper-with-code},
   keywords      = {Statistics - Computation},
   primaryclass  = {stat},
 }
@@ -684,6 +693,7 @@
   comment  = {https://github.com/madsjulia/Mads.jl/},
   doi      = {10.1002/2016WR020299},
   file     = {Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016WR020299:application/pdf},
+  groups   = {paper-with-code, compat-with-LTS},
   keywords = {hydraulic inverse modeling, data reduction, randomization, geostatistical inversion},
   language = {en},
   urldate  = {2021-12-06},
@@ -713,5 +723,5 @@
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:paper-with-code\;0\;1\;0x8a8a8aff\;\;\;;
-1 StaticGroup:compat-with-LTS\;0\;0\;0x00ff00ff\;\;Compat with LTS release: v1.6.4 (2021-11-19)\;;
+1 StaticGroup:compat-with-LTS\;0\;1\;0x00ff00ff\;\;Compat with LTS release: v1.6.4 (2021-11-19)\;;
 }
