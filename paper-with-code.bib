@@ -634,11 +634,16 @@
   number     = {11},
   pages      = {204},
   volume     = {2},
-  abstract   = {Pastell, (2017), Weave.jl: Scientific Reports Using Julia, Journal of Open Source Software, 2(11), 204, doi:10.21105/joss.00204},
+  abstract   = {Weave is a tool for writing scientific reports using Julia (Bezanson et al. 2017). It allows writing of text, mathematics and code in a single document which can be run capturing results into a rich report. Output can include text using several markup languages, plots generated using one of the several Julia plotting libraries and other objects displayed using Julia’s multimedia output. The workflow is very similar to using Knitr (Xie 2015) R-package.
+
+Weave supports noweb, markdown, script syntax for delimiting code from text in the source document and several output formats including Markdown and Latex. The output from code can be controlled using chunk options making it possible e.g. to hide code and only show output when needed as well as set a figure caption and figure size. The library also has methods for converting documents from all input formats to Jupyter notebooks and vice versa.
+
+The package aims to support writing scientific papers and enable easy sharing of analysis in order to promote reproducible research. It also aims to enable simple writing of educational material, tutorials and blog posts.},
   comment    = {https://github.com/JunoLab/Weave.jl},
   doi        = {10.21105/joss.00204},
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00204.pdf:application/pdf},
   groups     = {compat-with-LTS, paper-with-code},
+  keywords   = {Scientific reports},
   language   = {en},
   shorttitle = {Weave.jl},
   urldate    = {2021-12-05},
@@ -653,14 +658,17 @@
   url     = {https://scholarworks.wm.edu/honorstheses/1129},
 }
 
-@Article{Widmann2017,
+@MastersThesis{Widmann2017,
   author   = {Widmann, David},
+  school   = {Technische Universität München},
   title    = {Quorum {Sensing} of {Pseudomonas} putida in {Continuous} {Cultures}},
   year     = {2017},
   abstract = {Bacteria of certain species communicate with each other to organise group-beneficial collective behaviour such as bioluminescence or swarming motility. The cell-to-cell communication of these bacteria is based on a cell-density dependent mechanism called quorum sensing (QS). For this process different mathematical models in the form of ordinary differential equations (ODEs), partial differential equations (PDEs), and delay differential equations (DDEs) have been proposed and studied in literature. In this thesis we consider a mathematical model of QS in {\textless}em{\textgreater}Pseudomonas putida{\textless}/em{\textgreater} IsoF ({\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF) which was published by Buddrus-Schiemann et al. They conducted growth experiments of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF under steady state conditions in a chemostat and could describe their measurements by a mathematical QS model of DDEs. We discuss the motivation of this model, building on well-known mathematical models for chemostat experiments and generic QS models. Moreover, we derive a modification of the QS model which accounts for subpopulations of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF with different roles in the QS system. Buddrus-Schiemann et al. speculated about the existence of these subpopulations which could explain some of their surprising findings. After a short theoretical analysis of both QS models we investigate which numerical methods are suited for computing simulations of these models. We provide a general introduction to numerical DDE solvers and present DelayDiffEq.jl, an improved and rewritten DDE solver in Julia. The last part of this thesis is dedicated to the inverse problems of the QS models. We develop a suitable objective function for parameter estimation and apply regularization and global optimisation to deal with the ill-conditioning and non-convexity of the parameter estimation problem. Moreover, we determine structurally and practically non-identifiable parameters. Our parameter estimation yields slightly different parameter estimates that fit the experimental data better than the parameters published by Buddrus-Schiemann et al. However, the parameter estimates do not support the hypothesis of two subpopulations.},
   comment  = {https://github.com/SciML/DelayDiffEq.jl},
+  eprint   = {https://mediatum.ub.tum.de/doc/1452085/1452085.pdf},
   groups   = {paper-with-code, compat-with-LTS},
-  url      = {https://mediatum.ub.tum.de/1452085?style=full_text},
+  keywords = {Quorum Sensing, QS, Pseudomonas putida, Continuous Culture, Chemostat, Delay Differential Equation, DDE},
+  url      = {https://mediatum.ub.tum.de/1452085?style=full_text&id=1452085&change_language=en},
   urldate  = {2021-12-05},
 }
 
