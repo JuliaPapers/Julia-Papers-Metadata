@@ -723,6 +723,76 @@ The package aims to support writing scientific papers and enable easy sharing of
   publisher = {Springer Science and Business Media {LLC}},
 }
 
+@Article{Elbert2022,
+  author    = {Donald L. Elbert and Bruce W. Patterson and Brendan P. Lucey and Tammie L. S. Benzinger and Randall J. Bateman},
+  journal   = {Communications Biology},
+  title     = {Importance of {CSF}-based A$\upbeta$ clearance with age in humans increases with declining efficacy of blood-brain barrier/proteolytic pathways},
+  year      = {2022},
+  month     = {jan},
+  number    = {1},
+  volume    = {5},
+  abstract  = {The kinetics of amyloid beta turnover within human brain is still poorly understood. We previously found a dramatic decline in the turnover of Aβ peptides in normal aging. It was not known if brain interstitial fluid/cerebrospinal fluid (ISF/CSF) fluid exchange, CSF turnover, blood-brain barrier function or proteolysis were affected by aging or the presence of β amyloid plaques. Here, we describe a non-steady state physiological model developed to decouple CSF fluid transport from other processes. Kinetic parameters were estimated using: (1) MRI-derived brain volumes, (2) stable isotope labeling kinetics (SILK) of amyloid-β peptide (Aβ), and (3) lumbar CSF Aβ concentration during SILK. Here we show that changes in blood-brain barrier transport and/or proteolysis were largely responsible for the age-related decline in Aβ turnover rates. CSF-based clearance declined modestly in normal aging but became increasingly important due to the slowing of other processes. The magnitude of CSF-based clearance was also lower than that due to blood-brain barrier function plus proteolysis. These results suggest important roles for blood-brain barrier transport and proteolytic degradation of Aβ in the development Alzheimer’s Disease in humans.},
+  comment   = {https://zenodo.org/record/5775131},
+  doi       = {10.1038/s42003-022-03037-0},
+  groups    = {paper-with-code},
+  keywords  = {Ageing, Alzheimer's disease, Computational models},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Bredikhin2022,
+  author    = {Danila Bredikhin and Ilia Kats and Oliver Stegle},
+  journal   = {Genome Biology},
+  title     = {{MUON}: multimodal omics analysis framework},
+  year      = {2022},
+  month     = {feb},
+  number    = {1},
+  volume    = {23},
+  abstract  = {Advances in multi-omics have led to an explosion of multimodal datasets to address questions from basic biology to translation. While these data provide novel opportunities for discovery, they also pose management and analysis challenges, thus motivating the development of tailored computational solutions. Here, we present a data standard and an analysis framework for multi-omics, MUON, designed to organise, analyse, visualise, and exchange multimodal data. MUON stores multimodal data in an efficient yet flexible and interoperable data structure. MUON enables a versatile range of analyses, from data preprocessing to flexible multi-omics alignment.},
+  comment   = {https://github.com/scverse/Muon.jl},
+  doi       = {10.1186/s13059-021-02577-8},
+  groups    = {paper-with-code},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Stijnman2022,
+  author    = {Peter R. S. Stijnman and Bart R. Steensma and Cornelis A. T. van~den Berg and Alexander J. E. Raaijmakers},
+  journal   = {Scientific Reports},
+  title     = {A perturbation approach for ultrafast calculation of {RF} field enhancements near medical implants in {MRI}},
+  year      = {2022},
+  month     = {mar},
+  number    = {1},
+  volume    = {12},
+  abstract  = {Patients with medical implants often are deprived of magnetic resonance imaging examination because of safety risks. One specific risk is the enhancement of the radiofrequency fields around the medical implant potentially resulting in significant tissue heating and damage. The assessment of this enhancement is a computationally demanding task, with simulations taking hours or days to converge. Conventionally the source of the radiofrequency fields, patient anatomy, and the medical implant are simulated concurrently. To alleviate the computational burden, we reformulate a fast simulation method that views the medical implant as a small perturbation of the simulation domain without the medical implant and calculates the radiofrequency fields associated with this perturbation. Previously, this method required an extensive offline stage where the result is intractable for large simulation domains. Currently, this offline stage is no longer required and the method is completely online. The proposed method results in comparable radiofrequency fields but is orders of magnitude faster compared to standard simulation technique; the finite-difference time-domain, the finite-sums, and the finite element methods. This acceleration could enable patient-specific and potentially online radiofrequency safety assessment.},
+  comment   = {https://github.com/JuliaPapers/DielectricUpdateTechnique.jl},
+  doi       = {10.1038/s41598-022-08004-7},
+  groups    = {paper-with-code},
+  keywords  = {Applied physics, Computational science, Imaging techniques},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Schneider2022,
+  author    = {Michael Schneider and Asis Shrestha and Agim Ballvora and Jens Léon},
+  journal   = {Plant Methods},
+  title     = {High-throughput estimation of allele frequencies using combined pooled-population sequencing and haplotype-based data processing},
+  year      = {2022},
+  number    = {1},
+  pages     = {1--18},
+  volume    = {18},
+  abstract  = {Background
+In addition to heterogeneity and artificial selection, natural selection is one of the forces used to combat climate change and improve agrobiodiversity in evolutionary plant breeding. Accurate identification of the specific genomic effects of natural selection will likely accelerate transfer between populations. Thus, insights into changes in allele frequency, adequate population size, gene flow and drift are essential. However, observing such effects often involves a trade-off between costs and resolution when a large sample of genotypes for many loci is analysed. Pool genotyping approaches achieve high resolution and precision in estimating allele frequency when sequence coverage is high. Nevertheless, high-coverage pool sequencing of large genomes is expensive.
+
+Results
+Three pool samples (n = 300, 300, 288) from a barley backcross population were generated to assess the population's allele frequency. The tested population (BC2F21) has undergone 18 generations of natural adaption to conventional farming practice. The accuracies of estimated pool-based allele frequencies and genome coverage yields were compared using three next-generation sequencing genotyping methods. To achieve accurate allele frequency estimates with low sequence coverage, we employed a haplotyping approach. Low coverage allele frequencies of closely located single polymorphisms were aggregated into a single haplotype allele frequency, yielding 2-to-271-times higher depth and increased precision. When we combined different haplotyping tactics, we found that gene and chip marker-based haplotype analyses performed equivalently or better compared with simple contig haplotype windows. Comparing multiple pool samples and referencing against an individual sequencing approach revealed that whole-genome pool re-sequencing (WGS) achieved the highest correlation with individual genotyping (≥ 0.97). In contrast, transcriptome-based genotyping (MACE) and genotyping by sequencing (GBS) pool replicates were significantly associated with higher error rates and lower correlations, but are still valuable to detect large allele frequency variations.
+
+Conclusions
+The proposed strategy identified the allele frequency of populations with high accuracy at low cost. This is particularly relevant to evolutionary plant breeding of crops with very large genomes, such as barley. Whole-genome low coverage re-sequencing at 0.03 × coverage per genotype accurately estimated the allele frequency when a loci-based haplotyping approach was applied. The implementation of annotated haplotypes capitalises on the biological background and statistical robustness.},
+  comment   = {https://doi.org/10.5281/zenodo.4304046},
+  doi       = {10.1186/s13007-022-00852-8},
+  groups    = {paper-with-code},
+  keywords  = {Pool sequencing, Genotyping, Allele frequency estimation, Single nucleotide polymorphisms, Haplotype, Hordeum vulgare},
+  publisher = {BioMed Central},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
