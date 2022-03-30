@@ -883,6 +883,134 @@ The proposed strategy identified the allele frequency of populations with high a
   url        = {https://opg.optica.org/josaa/abstract.cfm?uri=josaa-31-11-2334},
 }
 
+ 
+@InProceedings{Fieker2017,
+  author     = {Fieker, Claus and Hart, William and Hofmann, Tommy and Johansson, Fredrik},
+  booktitle  = {Proceedings of the 2017 {ACM} on {International} {Symposium} on {Symbolic} and {Algebraic} {Computation}},
+  title      = {Nemo/{Hecke}: {Computer} {Algebra} and {Number} {Theory} {Packages} for the {Julia} {Programming} {Language}},
+  year       = {2017},
+  address    = {New York, NY, USA},
+  pages      = {157--164},
+  publisher  = {Association for Computing Machinery},
+  series     = {{ISSAC} '17},
+  abstract   = {We introduce two new packages, Nemo and Hecke, written in the Julia programming language for computer algebra and number theory. We demonstrate that high performance generic algorithms can be implemented in Julia, without the need to resort to a low-level C implementation. For specialised algorithms, we use Julia's efficient native C interface to wrap existing C/C++ libraries such as Flint, Arb, Antic and Singular. We give examples of how to use Hecke and Nemo and discuss some algorithms that we have implemented to provide high performance basic arithmetic.},
+  comment    = {https://github.com/Nemocas/Nemo.jl
+https://github.com/thofma/Hecke.jl},
+  doi        = {10.1145/3087604.3087611},
+  file       = {Full Text PDF:https\://dl.acm.org/doi/pdf/10.1145/3087604.3087611:application/pdf},
+  groups     = {paper-with-code},
+  isbn       = {9781450350648},
+  keywords   = {computer algebra, implementation and performance tuning, computational number theory, design of symbolic computation packages and systems},
+  shorttitle = {Nemo/{Hecke}},
+}
+
+ 
+@Article{Genewein2015,
+  author     = {Genewein, Tim and Leibfried, Felix and Grau-Moya, Jordi and Braun, Daniel Alexander},
+  journal    = {Frontiers in Robotics and AI},
+  title      = {Bounded {Rationality}, {Abstraction}, and {Hierarchical} {Decision}-{Making}: {An} {Information}-{Theoretic} {Optimality} {Principle}},
+  year       = {2015},
+  issn       = {2296-9144},
+  volume     = {2},
+  abstract   = {Abstraction and hierarchical information processing are hallmarks of human and animal intelligence underlying the unrivaled flexibility of behavior in biological systems. Achieving such flexibility in artificial systems is challenging, even with more and more computational power. Here, we investigate the hypothesis that abstraction and hierarchical information processing might in fact be the consequence of limitations in information-processing power. In particular, we study an information-theoretic framework of bounded rational decision-making that trades off utility maximization against information-processing costs. We apply the basic principle of this framework to perception-action systems with multiple information-processing nodes and derive bounded-optimal solutions. We show how the formation of abstractions and decision-making hierarchies depends on information-processing costs. We illustrate the theoretical ideas with example simulations and conclude by formalizing a mathematically unifying optimization principle that could potentially be extended to more complex systems.},
+  doi        = {10.3389/frobt.2015.00027},
+  groups     = {paper-with-code},
+  shorttitle = {Bounded {Rationality}, {Abstraction}, and {Hierarchical} {Decision}-{Making}},
+}
+
+ 
+@Article{Smith2015,
+  author     = {Smith, David S. and Li, Xia and Arlinghaus, Lori R. and Yankeelov, Thomas E. and Welch, E. Brian},
+  journal    = {PeerJ},
+  title      = {{DCEMRI}.jl: a fast, validated, open source toolkit for dynamic contrast enhanced {MRI} analysis},
+  year       = {2015},
+  issn       = {2167-8359},
+  month      = apr,
+  pages      = {e909},
+  volume     = {3},
+  abstract   = {We present a fast, validated, open-source toolkit for processing dynamic contrast enhanced magnetic resonance imaging (DCE-MRI) data. We validate it against the Quantitative Imaging Biomarkers Alliance (QIBA) Standard and Extended Tofts-Kety phantoms and find near perfect recovery in the absence of noise, with an estimated 10–20× speedup in run time compared to existing tools. To explain the observed trends in the fitting errors, we present an argument about the conditioning of the Jacobian in the limit of small and large parameter values. We also demonstrate its use on an in vivo data set to measure performance on a realistic application. For a 192 × 192 breast image, we achieved run times of {\textless}1 s. Finally, we analyze run times scaling with problem size and find that the run time per voxel scales as O(N1.9), where N is the number of time points in the tissue concentration curve. DCEMRI.jl was much faster than any other analysis package tested and produced comparable accuracy, even in the presence of noise.},
+  comment    = {https://github.com/davidssmith/DCEMRI.jl},
+  doi        = {10.7717/peerj.909},
+  file       = {Full Text PDF:https\://peerj.com/articles/909.pdf:application/pdf},
+  groups     = {paper-with-code},
+  publisher  = {PeerJ Inc.},
+  shorttitle = {{DCEMRI}.jl},
+  url        = {https://peerj.com/articles/909},
+}
+
+ 
+@InProceedings{OMalley2016,
+  author     = {O'Malley, Daniel and Vesselinov, Velimir V.},
+  booktitle  = {2016 {IEEE} {High} {Performance} {Extreme} {Computing} {Conference} ({HPEC})},
+  title      = {{ToQ}.jl: {A} high-level programming language for {D}-{Wave} machines based on {Julia}},
+  year       = {2016},
+  month      = sep,
+  pages      = {1--7},
+  abstract   = {Quantum computers are becoming more widely available, so it is important to develop tools that enable people to easily program these computers to solve complex problems. To address this issue, we present the design and two applications of ToQ.jl, a high-level programming language for D-Wave quantum annealing machines. ToQ.jl leverages the metaprogramming facilities in Julia (a high-level, high-performance programming language for technical computing) and uses D-Wave's ToQ programming language as an intermediate representation. This makes it possible for a programmer to leverage all the capabilities of Julia, and the D-Wave machine is used as a co-processor. We demonstrate ToQ.jl via two applications: (1) a pedagogical example based on a map-coloring problem and (2) a linear least squares problem. We also discuss our experience using ToQ.jl with a D-Wave 2X, particularly with respect to a linear least squares problem which is of broad interest to the scientific computing community.},
+  comment    = {https://github.com/omalled/ThreeQ.jl},
+  doi        = {10.1109/HPEC.2016.7761616},
+  file       = {IEEE Xplore Full Text PDF:https\://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=7761616&ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL2Fic3RyYWN0L2RvY3VtZW50Lzc3NjE2MTY=:application/pdf},
+  groups     = {paper-with-code},
+  keywords   = {Quadrature amplitude modulation, Computer languages, Color, Load modeling, Government, Mathematical model, Geoscience},
+  shorttitle = {{ToQ}.jl},
+}
+
+ 
+@Article{Slevinsky2017,
+  author   = {Slevinsky, Richard Mikael and Olver, Sheehan},
+  journal  = {Journal of Computational Physics},
+  title    = {A fast and well-conditioned spectral method for singular integral equations},
+  year     = {2017},
+  issn     = {0021-9991},
+  month    = mar,
+  pages    = {290--315},
+  volume   = {332},
+  abstract = {We develop a spectral method for solving univariate singular integral equations over unions of intervals by utilizing Chebyshev and ultraspherical polynomials to reformulate the equations as almost-banded infinite-dimensional systems. This is accomplished by utilizing low rank approximations for sparse representations of the bivariate kernels. The resulting system can be solved in O(m2n) operations using an adaptive QR factorization, where m is the bandwidth and n is the optimal number of unknowns needed to resolve the true solution. The complexity is reduced to O(mn) operations by pre-caching the QR factorization when the same operator is used for multiple right-hand sides. Stability is proved by showing that the resulting linear operator can be diagonally preconditioned to be a compact perturbation of the identity. Applications considered include the Faraday cage, and acoustic scattering for the Helmholtz and gravity Helmholtz equations, including spectrally accurate numerical evaluation of the far- and near-field solution. The Julia software package SingularIntegralEquations.jl implements our method with a convenient, user-friendly interface.},
+  comment  = {https://github.com/JuliaApproximation/SingularIntegralEquations.jl},
+  doi      = {10.1016/j.jcp.2016.12.009},
+  groups   = {paper-with-code},
+  keywords = {Spectral method, Ultraspherical polynomials, Singular integral equations},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0021999116306507},
+}
+
+ 
+@Article{Giordano2016,
+  author        = {Giordano, Mosè},
+  title         = {Uncertainty propagation with functionally correlated quantities},
+  year          = {2016},
+  month         = oct,
+  abstract      = {Many uncertainty propagation software exist, written in different programming languages, but not all of them are able to handle functional correlation between quantities. In this paper we review one strategy to deal with uncertainty propagation of quantities that are functionally correlated, and introduce a new software offering this feature: the Julia package Measurements.jl. It supports real and complex numbers with uncertainty, arbitrary-precision calculations, mathematical and linear algebra operations with matrices and arrays.},
+  annote        = {Comment: 3 pages. The Julia package Measurements.jl can be found at this http URL https://github.com/giordano/Measurements.jl},
+  archiveprefix = {arxiv},
+  comment       = {https://github.com/JuliaPhysics/Measurements.jl},
+  eprint        = {1610.08716},
+  file          = {arXiv Fulltext PDF:https\://arxiv.org/pdf/1610.08716.pdf:application/pdf},
+  groups        = {paper-with-code},
+  keywords      = {Physics - Data Analysis, Statistics and Probability},
+  primaryclass  = {physics},
+}
+
+ 
+@Article{Zhang2016,
+  author     = {Zhang, Weijian and Higham, Nicholas J.},
+  journal    = {PeerJ Computer Science},
+  title      = {Matrix {Depot}: an extensible test matrix collection for {Julia}},
+  year       = {2016},
+  issn       = {2376-5992},
+  month      = apr,
+  pages      = {e58},
+  volume     = {2},
+  abstract   = {Matrix Depot is a Julia software package that provides easy access to a large and diverse collection of test matrices. Its novelty is threefold. First, it is extensible by the user, and so can be adapted to include the user’s own test problems. In doing so, it facilitates experimentation and makes it easier to carry out reproducible research. Second, it amalgamates in a single framework two different types of existing matrix collections, comprising parametrized test matrices (including Hansen’s set of regularization test problems and Higham’s Test Matrix Toolbox) and real-life sparse matrix data (giving access to the University of Florida sparse matrix collection). Third, it fully exploits the Julia language. It uses multiple dispatch to help provide a simple interface and, in particular, to allow matrices to be generated in any of the numeric data types supported by the language.},
+  comment    = {https://github.com/JuliaMatrices/MatrixDepot.jl},
+  doi        = {10.7717/peerj-cs.58},
+  file       = {Full Text PDF:https\://peerj.com/articles/cs-58.pdf:application/pdf},
+  groups     = {paper-with-code},
+  keywords   = {Julia, Software package, Test matrices, Matrix algorithm., Test problems},
+  publisher  = {PeerJ Inc.},
+  shorttitle = {Matrix {Depot}},
+  url        = {https://peerj.com/articles/cs-58},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
