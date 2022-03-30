@@ -793,10 +793,118 @@ The proposed strategy identified the allele frequency of populations with high a
   publisher = {BioMed Central},
 }
 
+ 
+@Article{Muratore2022,
+  author   = {Muratore, Giosuè and Schneider, Csaba},
+  journal  = {Journal of Symbolic Computation},
+  title    = {Effective computations of the {Atiyah}-{Bott} formula},
+  year     = {2022},
+  issn     = {0747-7171},
+  month    = sep,
+  pages    = {164--181},
+  volume   = {112},
+  abstract = {We present an implementation of the Atiyah-Bott residue formula for M‾0,m(Pn,d). We use this implementation to compute a large number of Gromov-Witten invariants of genus 0, including intersection numbers of rational curves on general complete intersections. We also compute some numbers of rational contact curves satisfying suitable Schubert conditions. Our computations confirm known predictions made by Mirror Symmetry. The code we developed for these problems is publicly available and can also be used for other types of computations.},
+  comment  = {https://github.com/mgemath/AtiyahBott.jl},
+  doi      = {10.1016/j.jsc.2022.01.005},
+  file     = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0747717122000050/pdfft?md5=8f8f89e576d8bb9d5b68eae604f63562&pid=1-s2.0-S0747717122000050-main.pdf&isDTMRedir=Y:application/pdf},
+  groups   = {paper-with-code},
+  keywords = {Contact, Torus action, Bott formula, Enumeration, SageMath, Julia programming language},
+  language = {en},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0747717122000050},
+  urldate  = {2022-03-30},
+}
+
+ 
+@Article{Rivero2022,
+  author     = {Rivero, Daniel and Fernandez-Blanco, Enrique and Pazos, Alejandro},
+  journal    = {Expert Systems with Applications},
+  title      = {{DoME}: {A} deterministic technique for equation development and {Symbolic} {Regression}},
+  year       = {2022},
+  issn       = {0957-4174},
+  month      = jul,
+  pages      = {116712},
+  volume     = {198},
+  abstract   = {Based on a solid mathematical background, this paper proposes a method for Symbolic Regression that enables the extraction of mathematical expressions from a dataset. Contrary to other approaches, such as Genetic Programming, the proposed method is deterministic and, consequently, does not require the creation of a population of initial solutions. Instead, a simple expression is grown until it fits the data. This method has been compared with four well-known Symbolic Regression techniques with a large number of datasets. As a result, on average, the proposed method returns better performance than the other techniques, with the advantage of returning mathematical expressions that can be easily used by different systems. Additionally, this method makes it possible to establish a threshold at the complexity of the expressions generated, i.e., the system can return mathematical expressions that are easily analyzed by the user, as opposed to other techniques that return very large expressions.},
+  comment    = {https://github.com/danielriveroc/DoMEv1},
+  doi        = {10.1016/j.eswa.2022.116712},
+  file       = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0957417422001889/pdfft?md5=f29381377772baa4c97b3b7f0e058b67&pid=1-s2.0-S0957417422001889-main.pdf&isDTMRedir=Y:application/pdf},
+  groups     = {paper-with-code, OpenAccess, CC BY 4.0},
+  keywords   = {Symbolic regression, Machine learning, Artificial intelligence},
+  language   = {en},
+  shorttitle = {{DoME}},
+  url        = {https://www.sciencedirect.com/science/article/pii/S0957417422001889},
+  urldate    = {2022-03-30},
+}
+
+ 
+@Article{Agrawal2022,
+  author   = {Agrawal, Sudhanshu and Lee, Wonjun and Wu Fung, Samy and Nurbekyan, Levon},
+  journal  = {Journal of Computational Physics},
+  title    = {Random features for high-dimensional nonlocal mean-field games},
+  year     = {2022},
+  issn     = {0021-9991},
+  month    = jun,
+  pages    = {111136},
+  volume   = {459},
+  abstract = {We propose an efficient solution approach for high-dimensional nonlocal mean-field game (MFG) systems based on the Monte Carlo approximation of interaction kernels via random features. We avoid costly space-discretizations of interaction terms in the state-space by passing to the feature-space. This approach allows for a seamless mean-field extension of virtually any single-agent trajectory optimization algorithm. Here, we extend the direct transcription approach in optimal control to the mean-field setting. We demonstrate the efficiency of our method by solving MFG problems in high-dimensional spaces which were previously out of reach for conventional non-deep-learning techniques.},
+  comment  = {https://github.com/SudhanshuAgrawal27/HighDimNonlocalMFG},
+  doi      = {10.1016/j.jcp.2022.111136},
+  file     = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S002199912200198X/pdfft?md5=e5e17f42df9381497291a1a9bf9f710f&pid=1-s2.0-S002199912200198X-main.pdf&isDTMRedir=Y:application/pdf},
+  groups   = {paper-with-code},
+  keywords = {Mean-field games, Nonlocal interactions, Random features, Optimal control, Hamilton-Jacobi-Bellman},
+  language = {en},
+  url      = {https://www.sciencedirect.com/science/article/pii/S002199912200198X},
+  urldate  = {2022-03-30},
+}
+
+ 
+@Article{Bagci2022,
+  author     = {Bağcı, Ali},
+  journal    = {Computer Physics Communications},
+  title      = {{JRAF}: {A} {Julia} package for computation of relativistic molecular auxiliary functions},
+  year       = {2022},
+  issn       = {0010-4655},
+  month      = apr,
+  pages      = {108276},
+  volume     = {273},
+  abstract   = {The evaluation of relativistic molecular integrals over exponential−type spinor orbitals requires the use of relativistic auxiliary functions in prolate spheroidal coordinates, and has been recently achieved (Bağcı and Hoggan (2015) [14]). This process is used in the solution of the molecular Dirac equation for electrons moving in a Coulomb potential. A series of papers on a method for fully analytical evaluation of relativistic auxiliary functions has been published [2, 3, 4] From the perspective of computational physics, these studies demonstrate how to deal with the integrals of the product of power functions with non−integer exponents and incomplete gamma functions. The computer program package used to calculate these auxiliary functions with high accuracy is presented. It is designed using the Julia programming language and yields highly accurate results for molecular integrals over a wide range of orbital parameters and quantum numbers. Additionally, the program package facilitates the efficient calculation of the angular momentum coefficients that arise from the product of two normalized Legendre functions centered at different atomic positions, and the determination of the rotation angular functions used for both complex and real spherical harmonics. Sample calculations are performed for two−center one−electron integrals over non−integer Slater−type orbitals, and the results prove the robustness of the package. Program summary Program Title: JRAF CPC Library link to program files: https://doi.org/10.17632/942xsbvfdf.1 Developer's repository link: https://github.com/abagciphys/JRAF.jl Licensing provisions: MIT Programming language: Julia programming language Supplementary material: An experimental version of the computer program package written in Mathematica programming language [5]. External routines/libraries: Nemo computer algebra package for the Julia programming language [6], Cuba multidimensional numerical integration using different algorithms in Julia [7]. Nature of problem: Relativistic molecular auxiliary function integrals result from the expression of a two−center two−electron Coulomb energy associated with a charge density. The Coulomb energy is transformed into kinetic energy integrals using Poisson's equation and the single−center potential, considering that the Laplace expansion for the Coulomb interactions is expressed in terms of normalized non−integer Slater−type orbitals [1]. Using the resulting expression for the two−center two−electron integrals, relativistic auxiliary function integrals are derived in prolate ellipsoidal coordinates. These auxiliary functions are generalized to the entire set of physical potential operators for the Coulomb potential case. The integral of the relativistic auxiliary functions have no closed−form solutions except that their parameters are integers. As such, the analytical evaluation of these functions is challenging. They are used in the solution of the matrix form representation of the molecular Dirac−Fock self−consistent field (SCF) equation. Solution method: A criterion that considers the symmetry properties of two−center two−electron molecular integrals is initially proposed [2]. This obviates the need for the computation of incomplete and complementary incomplete gamma functions, and utilizes their sum (P+Q=1). The resulting form of the integral of the relativistic molecular auxiliary functions is expressed in terms of the convergent series representation of incomplete beta functions. Recurrence relationships are then derived for each of these sub−functions [3]. The algorithm for computation of the auxiliary functions is based on the vectorization procedure defined in [4]. References [1]A. Bağcı, P.E. Hoggan, Phys. Rev. E 91 (2) (2015) 023303, https://link.aps.org/doi/10.1103/PhysRevE.91.023303.[2]A. Bağcı, P.E. Hoggan, Rend. Fis. Accad. Lincei 29 (1) (2018) 191–197, https://doi.org/10.1007/s12210-018-0669-8.[3]A. Bağcı, P.E. Hoggan, M. Adak, Rend. Fis. Accad. Lincei 29 (4) (2018) 765–775, https://doi.org/10.1007/s12210-018-0734-3.[4]A. Bağcı, P.E. Hoggan, Rend. Fis. Accad. Lincei 31 (4) (2020) 1089–1103, https://doi.org/10.1007/s12210-020-00953-3.[5]https://www.wolfram.com/mathematica/.[6]C. Fieker, W. Hart, T. Hofmann, F. Johansson, in: Proceedings of ISSAC '17, New York, ACM, 2017, pp. 157–164.[7]T. Hahn, Comput. Phys. Commun. 176 (11) (2007) 712–713, https://doi.org/10.1016/j.cpc.2007.03.006.},
+  comment    = {https://github.com/abagciphys/JRAF.jl},
+  doi        = {10.1016/j.cpc.2021.108276},
+  file       = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S001046552100388X/pdfft?md5=f325722b92056ba608d4736b0ffe0270&pid=1-s2.0-S001046552100388X-main.pdf&isDTMRedir=Y:application/pdf},
+  groups     = {paper-with-code},
+  keywords   = {Dirac equation, Relativistic molecular auxiliary functions, Molecular integrals},
+  language   = {en},
+  shorttitle = {{JRAF}},
+  url        = {https://www.sciencedirect.com/science/article/pii/S001046552100388X},
+  urldate    = {2022-03-30},
+}
+
+ 
+@Article{Souza2022,
+  author   = {Souza, Rodolfo and Jha, Achla and Calabrese, Salvatore},
+  journal  = {Journal of Hydrology},
+  title    = {Quantifying the hydrological impact of soil mulching across rainfall regimes and mulching layer thickness},
+  year     = {2022},
+  issn     = {0022-1694},
+  month    = apr,
+  pages    = {127523},
+  volume   = {607},
+  abstract = {Covering the soil surface with mulch is a cropland management practice that can provide several benefits to the soil environment, especially in rainfed systems. Soil mulching tends to enhance plant growth by reducing soil evaporation and potentially increasing transpiration, but its effectiveness vary widely across rainfall regimes and mulching materials. Here we investigate this variability using a process-based modeling framework coupling the dynamics of soil and mulching moisture and of crop growth. Supported by field observations under different mulching materials, we study the effectiveness of soil mulching in increasing transpiration and growth under different rainfall regimes and mulching layer thickness. The analysis suggests that in most rainfall scenarios soil mulching can increase plant transpiration by up to 100\% and reduce soil evaporation by up to 40\%. However, there exist rainfall conditions (low frequency and high intensity) under which soil mulching may cause lower transpiration. We also show that soil mulching is particularly beneficial during a dry spell, a phenomenon that is projected to occur more frequently in many climatic zones. In the event of a dry spell during the growing season, soil mulching helps maintain moist conditions for longer, hence limiting the negative effects on plant transpiration and growth. The analysis helps better understand the role of soil mulching on transpiration and crop growth and provides important information for improving soil mulching depending on mulching material and the site-specific rainfall regime.},
+  comment  = {https://github.com/calabresehydrologylab/SoilMulch.jl},
+  doi      = {10.1016/j.jhydrol.2022.127523},
+  groups   = {paper-with-code},
+  keywords = {Soil moisture, Evapotranspiration, Conservation agriculture, Rainfed agriculture, Dry spells},
+  language = {en},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0022169422000981},
+  urldate  = {2022-03-30},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:paper-with-code\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:compat-with-LTS\;0\;1\;0x00ff00ff\;\;Compat with LTS release: v1.6.4 (2021-11-19)\;;
+1 StaticGroup:OpenAccess\;0\;1\;0x8a8a8aff\;\;\;;
+2 StaticGroup:CC BY 4.0\;0\;1\;0x8a8a8aff\;\;https://creativecommons.org/licenses/by/4.0/\;;
 }
