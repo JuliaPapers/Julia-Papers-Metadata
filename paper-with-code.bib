@@ -1080,6 +1080,24 @@ https://github.com/thofma/Hecke.jl},
   urldate   = {2022-12-18},
 }
 
+ 
+@TechReport{Galatolo2022,
+  author   = {Galatolo, Stefano and Monge, Maurizio and Nisoli, Isaia and Poloni, Federico},
+  title    = {A general framework for the rigorous computation of invariant densities and the coarse-fine strategy},
+  year     = {2022},
+  month    = dec,
+  note     = {arXiv:2212.05017 [nlin] type: article},
+  abstract = {In this paper we present a general, axiomatical framework for the rigorous approximation of invariant densities and other important statistical features of dynamics. We approximate the system trough a finite element reduction, by composing the associated transfer operator with a suitable finite dimensional projection (a discretization scheme) as in the well-known Ulam method. We introduce a general framework based on a list of properties (of the system and of the projection) that need to be verified so that we can take advantage of a so-called ``coarse-fine'' strategy. This strategy is a novel method in which we exploit information coming from a coarser approximation of the system to get useful information on a finer approximation, speeding up the computation. This coarse-fine strategy allows a precise estimation of invariant densities and also allows to estimate rigorously the speed of mixing of the system by the speed of mixing of a coarse approximation of it, which can easily be estimated by the computer. The estimates obtained here are rigourous, i.e., they come with exact error bounds that are guaranteed to hold and take into account both the discretiazation and the approximations induced by finite-precision arithmetic. We apply this framework to several discretization schemes and examples of invariant density computation from previous works, obtaining a remarkable reduction in computation time. We have implemented the numerical methods described here in the Julia programming language, and released our implementation publicly as a Julia package.},
+  comment  = {https://github.com/JuliaDynamics/RigorousInvariantMeasures.jl},
+  doi      = {10.48550/arXiv.2212.05017},
+  file     = {arXiv Fulltext PDF:https\://arxiv.org/pdf/2212.05017.pdf:application/pdf},
+  groups   = {MIT, paper-with-code},
+  keywords = {Mathematics - Dynamical Systems, Mathematics - Numerical Analysis, Nonlinear Sciences - Chaotic Dynamics, 37M25, 37-04, 65P99},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2212.05017},
+  urldate  = {2022-12-18},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
