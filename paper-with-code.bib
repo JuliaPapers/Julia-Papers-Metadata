@@ -33,23 +33,6 @@
   url       = {https://pubs.rsc.org/en/content/articlelanding/2017/sm/c7sm01910f},
 }
 
-@Article{Fox2017,
-  author    = {Fox, Alyson and Manteuffel, Thomas and Sanders, Geoffrey},
-  journal   = {SIAM Journal on Scientific Computing},
-  title     = {Numerical {Methods} for {Gremban}'s {Expansion} of {Signed} {Graphs}},
-  year      = {2017},
-  issn      = {1064-8275},
-  month     = jan,
-  number    = {5},
-  pages     = {S945--S968},
-  volume    = {39},
-  abstract  = {Recently a new dimension of graphs has manifested in the network science community that goes beyond the traditional notion of connections and disconnections to include both favorable and adverse relationships. There are many applications, such as ranking and clustering, where data scientists are interested in solving linear systems associated with unsigned graphs. We show that there exists a direct relationship between a signed graph and an unsigned variant. Methods that have been applied for unsigned graphs could be applied to signed graphs in a meaningful way. Fairly robust solvers for unsigned, undirected graph Laplacians have been developed, but these solvers are not directly applicable to general, signed graphs. Gremban's expansion [K. Gremban, Combinatorial Preconditioners for Sparse, Symmetric, Diagonally Dominant Linear Systems, Ph.D. thesis and Tech. report CMU-CS-96-123, School of Computer Science, Carnegie Mellon University, Pittsburgh, 1996] is used to transform the signed, undirected graph Laplacian into an unsigned, undirected graph Laplacian with twice the number of unknowns. The solution to the linear system of the expanded matrix yields the solution of the original linear system. Thus, using Gremban's expansion, we can extend the current Laplacian solvers' robustness to signed graph Laplacians. We hope to further motivate data analysts to use signed graph models by providing optimal solvers and showing how they are related to existing unsigned graph mining techniques applied to the graph associated with the Gremban's expansion matrix. Due to the relationship between a signed graph and its unsigned graph via the Gremban expansion matrix, we conduct a preliminary investigation into the application of traditional ranking to the Gremban's expansion matrix. The rankings using Gremban's expansion for a user-movie rating graph change considerably if a signed graph Laplacian is used, indicating that applications such as recommendation systems would attain different and possibly better recommendations if a signed graph was used instead. This paper delves into the numerical stability and applicability of Gremban's expansion and proves that the error of the solution of the original linear system can be tightly bounded by the error of the expanded system. Gremban's expansion was originally created only for symmetric matrices. This paper demonstrates that the expansion is applicable not only to symmetric diagonally dominant matrices but also to nonsymmetric matrices associated with signed, directed graphs. This paper presents numerical tests on signed, undirected graphs. Both manufactured and real-world signed, undirected graph Laplacians are tested with various solvers to show that the expansion is numerically stable.},
-  doi       = {10.1137/16M1082433},
-  groups    = {paper-with-code},
-  keywords  = {signed graphs, Gremban expansion, graph Laplacian, LAMG},
-  publisher = {Society for Industrial and Applied Mathematics},
-}
-
 @Article{Kressner2017,
   author  = {Kressner, Daniel and Lana, Periša},
   journal = {SIAM Journal on Scientific Computing},
