@@ -129,7 +129,7 @@
   abstract = {JuMP is an open-source modeling language that allows users to express a wide range of optimization problems (linear, mixed-integer, quadratic, conic-quadratic, semidefinite, and nonlinear) in a high-level, algebraic syntax. JuMP takes advantage of advanced features of the Julia programming language to offer unique functionality while achieving performance on par with commercial modeling tools for standard tasks. In this work we will provide benchmarks, present the novel aspects of the implementation, and discuss how JuMP can be extended to new problem classes and composed with state-of-the-art tools for visualization and interactivity.},
   comment  = {https://github.com/jump-dev/JuMP.jl},
   doi      = {10.1137/15M1020575},
-  groups   = {paper-with-code, compat-with-LTS},
+  groups   = {paper-with-code, compat-with-LTS, registered-package, MPL-2.0},
 }
 
 @Article{FernandezdeCossioDiaz2017,
@@ -145,7 +145,7 @@
   comment  = {Source code (ZIP). Contains the source code of scripts used in the manuscript.
 https://doi.org/10.1371/journal.pcbi.1005835.s002},
   doi      = {10.1371/journal.pcbi.1005835},
-  groups   = {paper-with-code, Open Access},
+  groups   = {paper-with-code, Open Access, script, MIT, before-v1.0},
 }
 
 @Article{Frost2017,
@@ -160,7 +160,7 @@ https://doi.org/10.1371/journal.pcbi.1005835.s002},
   abstract = {Lead halide perovskite semiconductors are soft, polar materials. The strong driving force for polaron formation (the dielectric electron-phonon coupling) is balanced by the light band effective masses, leading to a strongly-interacting large polaron. A first-principles prediction of mobility would help understand the fundamental mobility limits. Theories of mobility need to consider the polaron (rather than free-carrier) state due to the strong interactions. In this material we expect that at room temperature polar-optical phonon mode scattering will dominate and so limit mobility. We calculate the temperature-dependent polaron mobility of hybrid halide perovskites by variationally solving the Feynman polaron model with the finite-temperature free energies of Osaka. This model considers a simplified effective-mass band structure interacting with a continuum dielectric of characteristic response frequency. We parametrize the model fully from electronic-structure calculations. In methylammonium lead iodide at 300 K we predict electron and hole mobilities of 133 and 94 cm(2) V-1 s(-1), respectively. These are in acceptable agreement with single-crystal measurements, suggesting that the intrinsic limit of the polaron charge carrier state has been reached. Repercussions for hot-electron photoexcited states are discussed. As well as mobility, the model also exposes the dynamic structure of the polaron. This can be used to interpret impedance measurements of the charge-carrier state. We provide the phonon-drag mass renormalization and scattering time constants. These could be used as parameters for larger-scale device models and band-structure dependent mobility simulations.},
   comment  = {https://github.com/jarvist/PolaronMobility.jl},
   doi      = {10.1103/PhysRevB.96.195202},
-  groups   = {paper-with-code},
+  groups   = {paper-with-code, MIT, registered-package, compat-with-LTS},
 }
 
 @Article{Jalving2017,
@@ -174,9 +174,9 @@ https://doi.org/10.1371/journal.pcbi.1005835.s002},
   pages    = {3163--3176},
   volume   = {11},
   abstract = {The authors present a graph-based computational framework that facilitates the construction, instantiation, and analysis of large-scale optimisation and simulation applications of coupled infrastructure networks. The framework integrates the optimisation modelling package PLASMO and the simulation package DMNetwork (built around PETSc). These tools use a common graph-based modelling abstraction that enables them to achieve compatibility between interfaces and data structures and facilitates the modular creation and exchange of component models. The authors also describe how to embed these tools within complex computational workflows using SWIFT, which is a tool that facilitates parallel execution of multiple simulation runs and management of input and output data. Finally, the authors discuss how to use these capabilities to target coupled natural gas and electricity systems.},
-  comment  = {https://github.com/zavalab/Plasmo.jl},
+  comment  = {https://github.com/plasmo-dev/Plasmo.jl},
   doi      = {10.1049/iet-gtd.2016.1582},
-  groups   = {paper-with-code, Open Access},
+  groups   = {paper-with-code, Open Access, MPL-2.0, registered-package, compat-with-LTS},
   keywords = {optimisation, power system simulation, power engineering computinggraph-based computational framework, coupled infrastructure networks, PLASMO, DMNetwork, data structures, component models, computational workflows, SWIFT, natural gas systems, electricity systems},
 }
 
@@ -195,7 +195,7 @@ https://doi.org/10.1371/journal.pcbi.1005835.s002},
   copyright = {Authors who publish with this journal agree to the following terms: Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a Creative Commons Attribution License that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal. Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal. Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See The Effect of Open Access ). All third-party images reproduced on this journal are shared under Educational Fair Use. For more information on Educational Fair Use , please see this useful checklist prepared by Columbia University Libraries . All copyright of third-party content posted here for research purposes belongs to its original owners. Unless otherwise stated all references to characters and comic art presented on this journal are ?, ? or ? of their respective owners. No challenge to any owner’s rights is intended or should be inferred.},
   doi       = {10.5334/jors.151},
   file      = {Full Text PDF:http\://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/galley/245/download/:application/pdf},
-  groups    = {paper-with-code, compat-with-LTS},
+  groups    = {paper-with-code, compat-with-LTS, Open Access, registered-package, MIT, CC BY 4.0},
   keywords  = {Julia, ordinary differential equations, stochastic differential equations, partial differential equations, multiple dispatch, metaprogramming, high-precision, multithreading},
   publisher = {Ubiquity Press},
 }
@@ -214,7 +214,7 @@ https://doi.org/10.1371/journal.pcbi.1005835.s002},
   comment    = {https://github.com/JuliaDynamics/DynamicalBilliards.jl},
   doi        = {10.21105/joss.00458},
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00458.pdf:application/pdf},
-  groups     = {paper-with-code},
+  groups     = {paper-with-code, MIT, registered-package, compat-with-LTS, CC BY 4.0},
   shorttitle = {{DynamicalBilliards}.jl},
 }
 
@@ -255,7 +255,7 @@ The package aims to support writing scientific papers and enable easy sharing of
   comment    = {https://github.com/JunoLab/Weave.jl},
   doi        = {10.21105/joss.00204},
   file       = {Full Text PDF:https\://joss.theoj.org/papers/10.21105/joss.00204.pdf:application/pdf},
-  groups     = {compat-with-LTS, paper-with-code},
+  groups     = {compat-with-LTS, paper-with-code, CC BY 4.0, registered-package, MIT},
   keywords   = {Scientific reports},
   shorttitle = {Weave.jl},
 }
@@ -268,7 +268,7 @@ The package aims to support writing scientific papers and enable easy sharing of
   abstract = {Bacteria of certain species communicate with each other to organise group-beneficial collective behaviour such as bioluminescence or swarming motility. The cell-to-cell communication of these bacteria is based on a cell-density dependent mechanism called quorum sensing (QS). For this process different mathematical models in the form of ordinary differential equations (ODEs), partial differential equations (PDEs), and delay differential equations (DDEs) have been proposed and studied in literature. In this thesis we consider a mathematical model of QS in {\textless}em{\textgreater}Pseudomonas putida{\textless}/em{\textgreater} IsoF ({\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF) which was published by Buddrus-Schiemann et al. They conducted growth experiments of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF under steady state conditions in a chemostat and could describe their measurements by a mathematical QS model of DDEs. We discuss the motivation of this model, building on well-known mathematical models for chemostat experiments and generic QS models. Moreover, we derive a modification of the QS model which accounts for subpopulations of {\textless}em{\textgreater}P. putida{\textless}/em{\textgreater} IsoF with different roles in the QS system. Buddrus-Schiemann et al. speculated about the existence of these subpopulations which could explain some of their surprising findings. After a short theoretical analysis of both QS models we investigate which numerical methods are suited for computing simulations of these models. We provide a general introduction to numerical DDE solvers and present DelayDiffEq.jl, an improved and rewritten DDE solver in Julia. The last part of this thesis is dedicated to the inverse problems of the QS models. We develop a suitable objective function for parameter estimation and apply regularization and global optimisation to deal with the ill-conditioning and non-convexity of the parameter estimation problem. Moreover, we determine structurally and practically non-identifiable parameters. Our parameter estimation yields slightly different parameter estimates that fit the experimental data better than the parameters published by Buddrus-Schiemann et al. However, the parameter estimates do not support the hypothesis of two subpopulations.},
   comment  = {https://github.com/SciML/DelayDiffEq.jl},
   eprint   = {https://mediatum.ub.tum.de/doc/1452085/1452085.pdf},
-  groups   = {paper-with-code, compat-with-LTS},
+  groups   = {paper-with-code, compat-with-LTS, MIT, registered-package},
   keywords = {Quorum Sensing, QS, Pseudomonas putida, Continuous Culture, Chemostat, Delay Differential Equation, DDE},
   url      = {https://mediatum.ub.tum.de/1452085?style=full_text&id=1452085&change_language=en},
 }
@@ -300,10 +300,10 @@ The package aims to support writing scientific papers and enable easy sharing of
   pages    = {6784--6801},
   volume   = {53},
   abstract = {When the number of observations is large, it is computationally challenging to apply classical inverse modeling techniques. We have developed a new computationally efficient technique for solving inverse problems with a large number of observations (e.g., on the order of 107 or greater). Our method, which we call the randomized geostatistical approach (RGA), is built upon the principal component geostatistical approach (PCGA). We employ a data reduction technique combined with the PCGA to improve the computational efficiency and reduce the memory usage. Specifically, we employ a randomized numerical linear algebra technique based on a so-called “sketching” matrix to effectively reduce the dimension of the observations without losing the information content needed for the inverse analysis. In this way, the computational and memory costs for RGA scale with the information content rather than the size of the calibration data. Our algorithm is coded in Julia and implemented in the MADS open-source high-performance computational framework (http://mads.lanl.gov). We apply our new inverse modeling method to invert for a synthetic transmissivity field. Compared to a standard geostatistical approach (GA), our method is more efficient when the number of observations is large. Most importantly, our method is capable of solving larger inverse problems than the standard GA and PCGA approaches. Therefore, our new model inversion method is a powerful tool for solving large-scale inverse problems. The method can be applied in any field and is not limited to hydrogeological applications such as the characterization of aquifer heterogeneity.},
-  comment  = {https://github.com/madsjulia/Mads.jl/},
+  comment  = {https://github.com/madsjulia/Mads.jl},
   doi      = {10.1002/2016WR020299},
   file     = {Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016WR020299:application/pdf},
-  groups   = {paper-with-code, compat-with-LTS},
+  groups   = {paper-with-code, compat-with-LTS, GPL-3.0, registered-package},
   keywords = {hydraulic inverse modeling, data reduction, randomization, geostatistical inversion},
 }
 
@@ -317,8 +317,9 @@ The package aims to support writing scientific papers and enable easy sharing of
   pages    = {17--29},
   volume   = {105},
   abstract = {This article presents the implementation of the material point method (MPM) using Julia. Julia is an open source, multi-platform, high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to Matlab and Python programmers. MPM is a hybrid particle-grid approach that combines the advantages of Eulerian and Lagrangian methods and is suitable for complex solid mechanics problems involving contact, impact and large deformations. We will show that a Julia based MPM code, which is short, compact and readable and uses only Julia built in features, performs much better (with speed up of up to 8) than a similar Matlab based MPM code for large strain solid mechanics simulations. We share our experiences of implementing MPM in Julia and demonstrate that Julia is a very interesting platform for rapid development in the field of scientific computing.},
+  comment  = {https://github.com/JuliaPapers/MPM-Julia},
   doi      = {10.1016/j.advengsoft.2017.01.008},
-  groups   = {paper-with-code, compat-with-LTS},
+  groups   = {paper-with-code, compat-with-LTS, script},
   keywords = {Julia, Material point method (MPM), High-performance dynamic programming language, Technical computing},
   url      = {https://www.sciencedirect.com/science/article/pii/S0965997816302769},
 }
@@ -538,7 +539,7 @@ The proposed strategy identified the allele frequency of populations with high a
 https://github.com/thofma/Hecke.jl},
   doi        = {10.1145/3087604.3087611},
   file       = {Full Text PDF:https\://dl.acm.org/doi/pdf/10.1145/3087604.3087611:application/pdf},
-  groups     = {paper-with-code},
+  groups     = {paper-with-code, registered-package, compat-with-LTS},
   isbn       = {9781450350648},
   keywords   = {computer algebra, implementation and performance tuning, computational number theory, design of symbolic computation packages and systems},
   shorttitle = {Nemo/{Hecke}},
@@ -790,15 +791,17 @@ https://github.com/thofma/Hecke.jl},
 0 AllEntriesGroup:;
 1 StaticGroup:paper-with-code\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:available-upon-request\;0\;1\;0x8a8a8aff\;\;Code are available upon request to the corresponding author.\;;
-1 StaticGroup:Open Access\;2\;0\;0x8a8a8aff\;\;\;;
-2 StaticGroup:CC BY 4.0\;0\;1\;0x8a8a8aff\;\;https://creativecommons.org/licenses/by/4.0/\;;
+1 StaticGroup:Open Access\;2\;1\;0x8a8a8aff\;\;\;;
+2 StaticGroup:CC BY 4.0\;0\;0\;0x8a8a8aff\;\;https://creativecommons.org/licenses/by/4.0/\;;
 1 StaticGroup:Code Tags\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:License\;0\;1\;0x8a8a8aff\;\;\;;
-3 StaticGroup:MIT\;0\;1\;0x8a8a8aff\;\;\;;
+3 StaticGroup:MIT\;0\;0\;0x8a8a8aff\;\;\;;
+3 StaticGroup:MPL-2.0\;0\;1\;0x8a8a8aff\;\;\;;
+3 StaticGroup:GPL-3.0\;0\;1\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Code Type\;0\;1\;0x8a8a8aff\;\;\;;
-3 StaticGroup:registered-package\;0\;1\;0x6285f8ff\;\;\;;
+3 StaticGroup:registered-package\;0\;0\;0x6285f8ff\;\;\;;
 3 StaticGroup:unregistered-package\;0\;0\;0x8a8a8aff\;\;\;;
-3 StaticGroup:script\;0\;1\;0x8a8a8aff\;\;\;;
+3 StaticGroup:script\;0\;0\;0x8a8a8aff\;\;\;;
 2 StaticGroup:Compat\;0\;1\;0x8a8a8aff\;\;\;;
 3 StaticGroup:compat-with-LTS\;0\;1\;0x00ff00ff\;\;Compat with LTS release: v1.6.4 (2021-11-19)\;;
 3 StaticGroup:v1.0-v1.5\;0\;1\;0x8a8a8aff\;\;julia="1.0 - 1.5"   # [1.0.0, 1.6.0)\;;
