@@ -785,6 +785,47 @@ https://github.com/thofma/Hecke.jl},
   urldate  = {2022-12-18},
 }
 
+@PhdThesis{Robol2015,
+  author   = {Robol, Leonardo},
+  school   = {University of Pisa},
+  title    = {Exploiting rank structures for the numerical treatment of matrix polynomials},
+  year     = {2015},
+  address  = {Italy},
+  type     = {phdthesis},
+  abstract = {The main purpose of this thesis is to analyze the relation between matrix polynomials and quasiseparable matrices. We show that these two apparently different topics have a very strict connection that becomes evident in the construction of linearizations for the solutions of polynomial eigenvalue problems. We say that P(x) is a matrix polynomial if it is a polynomial with matrix coefficients or a matrix with polynomial entries. The two definitions are easily seen to be equivalent, and the set of m1 × m2 matrix polynomials is denoted by Fm1×m2 [x] where F is a field. Often, in this thesis, we consider the case where m := m1 = m2. In this case we say that the matrix polynomials are square. In the following we will often assume that F = C, but some of the results also hold in a more general setting.},
+  comment  = {https://github.com/numpi/BivMatFun},
+  groups   = {MIT, unregistered-package, compat-with-LTS},
+  url      = {https://leonardo.robol.it/wp-content/uploads/2019/09/phd-thesis.pdf},
+}
+
+ 
+@PhdThesis{Atcheson2015,
+  author   = {Atcheson, Thomas Reid},
+  school   = {RICE UNIVERSITY},
+  title    = {Accelerated {Plane}-{Wave} {Discontinuous} {Galerkin} for {Heterogeneous} {Scattering} {Problems}},
+  year     = {2015},
+  month    = nov,
+  type     = {phdthesis},
+  abstract = {This thesis considers algorithmic and computational acceleration of numerical wave modelling at high frequencies. Numerical propagation of linear waves at high frequencies poses a significant challenge to modern simulation techniques. Despite the fact that potential practical benefits led a great deal of attention to this problem, current research has yet to provide a general and performant method to solve it. I consider finite element as a possible solution because it can handle geometric complexity of heterogeneous domains, but unfortunately it suffers from the “pollution” effect which imposes a prohobitively large memory requirement to handle high frequencies. One recent step towards enabling the finite element method to solve high frequency wave propagation in the frequency domain involves using a plane-wave basis rather than the standard polynomial basis. This allows highly compressed representations of scattering waves but otherwise appeared to limit users to nearly-homogeneous problems. This thesis explores the use of plane-waves in a discontinuous Galerkin method (PWDG) for highly heterogeneous problems possibly containing a point source. The low-memory nature of PWDG and the fact that its expressions can be computed in an entirely symbolic manner without quadratures furthermore permits an efficient graphics processing unit (GPU) implementation such that problems with very high frequencies can be solved on a single workstation. This thesis includes computational results demonstrating results for frequencies in excess of 100 hertz on the Marmousi model, solved using only a single GPU.},
+  file     = {Full Text PDF:https\://scholarship.rice.edu/bitstream/1911/102237/1/TR15-08.pdf:application/pdf},
+  groups   = {paper-with-code, script, before-v1.0},
+  language = {en},
+  url      = {https://scholarship.rice.edu/handle/1911/102237},
+  urldate  = {2022-12-18},
+}
+
+@InProceedings{Timperley2015,
+  author       = {Timperley, Christopher Steven and Stepney, Susan},
+  booktitle    = {ECAL 2015: the 13th European Conference on Artificial Life},
+  title        = {Wallace: An efficient generic evolutionary framework},
+  year         = {2015},
+  organization = {MIT Press},
+  pages        = {365--372},
+  abstract     = {We present a novel evolutionary computing framework, Wallace, that achieves ease-of-use and genericity, via a domainspecific language, and simultaneously achieves efficiency via meta-programming, as well as supporting parallelism. Wallace also includes a novel multiple representation model of individual development, realised using meta-programming. We describe the Wallace framework, illustrating it with a number of example problems from the literature. We compare the performance of this framework to existing EC frameworks; early results show improvements in both conciseness and speed over popular alternatives. Finally, we discuss the future of EC frameworks, and the ongoing developments to the Wallace framework.},
+  comment      = {https://github.com/ChrisTimperley/Wallace.jl},
+  groups       = {MIT, unregistered-package, before-v1.0},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
