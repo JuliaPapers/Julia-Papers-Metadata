@@ -7,18 +7,20 @@
 
 
 paper count, [not include `arXiv`][no-arxiv]:
-```
-now (2022-12-18), 2340
-2022, 647
-2021, 552
-2020, 428
-2019, 313
-2018, 207
-2017, 101
-2016, 36
-2015, 14
-2014, 4
-2013, 0
+```csv
+year,raw count,real count
+Any time,2690,
+2023-06,270,
+2022,731,
+2021,548,
+2020,427,
+2019,313,
+2018,211,
+2017,102,
+2016,37,
+2015,15,
+2014,4,
+2013,7,0
 ```
 
 [no-arxiv]: https://scholar.google.com/scholar?q=-arXiv&hl=en&as_sdt=0,22&sciodt=0,22&cites=12373977815425691465&scipsc=1
