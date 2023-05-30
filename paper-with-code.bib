@@ -881,6 +881,78 @@ present two efficient methods for numerically solving the resulting linear optim
 Through various examples including deconvolution, binary segmentation, inpainting and a specialized noise removal we show the diversity of the framework and the effectiveness of the new discretization.},
 }
 
+@MastersThesis{Paulon2016,
+  author    = {Giorgio Paulon},
+  school    = {Politecnico di Milano},
+  title     = {A Bayesian autoregressive semiparametric model for waiting times of recurrent events},
+  year      = {2016},
+  month     = apr,
+  type      = {mathesis},
+  abstract  = {In this work we propose a Bayesian approach for the analysis of recurrent event data. The first main original contribution of this thesis consists of a semiparametric Bayesian model for waiting times between recurrent events. In particular, time-dependency of waiting times from the previous ones is modelled through mixtures of autoregressive processes. In addition, this model allows to create clusters of patients according to the entire trajectory of the event counts over the period of observation. Both fixed and time-dependent covariates can be introduced in the present framework. As the second main original contribution of this thesis, we derive the analytical expression of the full- conditional distributions necessary to build an MCMC algorithm to sample from the posterior distribution. The algorithm was efficiently coded in the Julia language. Data in this context usually consist of a large number of processes exhibiting a relatively small number of recurrent events, which is the typical situation arising in medical studies. In particular, we study a real dataset containing rehospitalisation times after surgery in patients diagnosed with colorectal cancer, with more covariates.},
+  comment   = {Appendix B - Implementation in Julia},
+  groups    = {paper-with-code, script},
+  publisher = {Italy},
+}
+
+@Article{Bassen2016,
+  author    = {Bassen, David and Vilkhovoy, Michael and Minot, Mason and Butcher, Jonathan and Varner, Jeffrey},
+  journal   = {bioArXiv},
+  title     = {JuPOETs: A Constrained Multiobjective Optimization Approach to Estimate Biochemical Model Ensembles in the Julia Programming Language},
+  year      = {2016},
+  month     = may,
+  abstract  = {Ensemble modeling is a well established approach for obtaining robust predictions and for simulating course grained population behavior in deterministic mathematical models. In this study, we present a multiobjective based technique to estimate model ensembles, the Pareto Optimal Ensemble Technique in the Julia programming language (JuPOETs). JuPOETs integrates simulated annealing with Pareto optimality to estimate parameter ensembles on or near the optimal tradeoff surface between competing training objectives. We demonstrated JuPOETs on a suite of multiobjective problems, including test functions with parameter bounds and system constraints as well as for the identification of a proof-of-concept biochemical model with four conflicting training objectives. JuPOETs identified optimal or near optimal solutions approximately six-fold faster than a corresponding implementation in Octave for the suite of test functions. For the proof-of-concept biochemical model, JuPOETs produced an ensemble of parameters that gave both the mean of the training data for conflicting data sets, while simultaneously estimating parameter sets that performed well on each of the individual objective functions. JuPOETs can be adapted to solve many problem types, including mixed binary and continuous variable types, bilevel optimization problems and constrained problems without altering the base algorithm. JuPOETs can be installed using the Julia package manager from the JuPOETs GitHub repository at https://github.com/varnerlab/POETs.jl.},
+  comment   = {https://github.com/varnerlab/POETs.jl},
+  date      = {2016-05-30},
+  day       = {30},
+  doi       = {10.1101/056044},
+  groups    = {paper-with-code, v1.0-v1.5, script},
+  publisher = {Cold Spring Harbor Laboratory},
+}
+
+@PhdThesis{Dunning2016,
+  author   = {Dunning, Iain Robert},
+  school   = {Massachusetts Institute of Technology},
+  title    = {Advances in robust and adaptive optimization: algorithms, software, and insights},
+  year     = {2016},
+  abstract = {Optimization in the presence of uncertainty is at the heart of operations research. There are many approaches to modeling the nature of this uncertainty, but this thesis focuses on developing new algorithms, software, and insights for an approach that has risen in popularity over the last 15 years: robust optimization (RO), and its extension to decision making across time, adaptive optimization (AO). In the first chapter, we perform a computational study of two approaches for solving RO problems: "reformulation" and "cutting planes". Our results provide useful evidence for what types of problems each method excels in. In the second chapter, we present and analyze a new algorithm for multistage AO problems with both integer and continuous recourse decisions. The algorithm operates by iteratively partitioning the problem's uncertainty set, using the approximate solution at each iteration. We show that it quickly produces high-quality solutions. In the third chapter, we propose an AO approach to a general version of the process flexibility design problem, whereby we must decide which factories produce which products. We demonstrate significant savings for the price of flexibility versus simple but popular designs in the literature. In the fourth chapter, we describe computationally practical methods for solving problems with "relative" RO objective functions. We use combinations of absolute and relative worst-case objective functions to find "Pareto-efficient" solutions that combine aspects of both. We demonstrate through three in-depth case studies that these solutions are intuitive and perform well in simulation. In the fifth chapter, we describe JuMPeR, a software package for modeling RO and AO problems that builds on the JuMP modeling language. It supports many features including automatic reformulation, cutting plane generation, linear decision rules, and general data-driven uncertainty sets.},
+  comment  = {Code included in the paper},
+  groups   = {paper-with-code, script},
+  keywords = {Operations Research Center},
+  url      = {http://hdl.handle.net/1721.1/105004},
+}
+
+@Article{Lin2016a,
+  author   = {Lin, Youzuo and O'Malley, Daniel and Vesselinov, Velimir V.},
+  journal  = {Water Resources Research},
+  title    = {A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses},
+  year     = {2016},
+  number   = {9},
+  pages    = {6948--6977},
+  volume   = {52},
+  abstract = {Abstract Inverse modeling seeks model parameters given a set of observations. However, for practical problems because the number of measurements is often large and the model parameters are also numerous, conventional methods for inverse modeling can be computationally expensive. We have developed a new, computationally efficient parallel Levenberg-Marquardt method for solving inverse modeling problems with a highly parameterized model space. Levenberg-Marquardt methods require the solution of a linear system of equations which can be prohibitively expensive to compute for moderate to large-scale problems. Our novel method projects the original linear problem down to a Krylov subspace such that the dimensionality of the problem can be significantly reduced. Furthermore, we store the Krylov subspace computed when using the first damping parameter and recycle the subspace for the subsequent damping parameters. The efficiency of our new inverse modeling algorithm is significantly improved using these computational techniques. We apply this new inverse modeling method to invert for random transmissivity fields in 2-D and a random hydraulic conductivity field in 3-D. Our algorithm is fast enough to solve for the distributed model parameters (transmissivity) in the model domain. The algorithm is coded in Julia and implemented in the MADS computational framework (http://mads.lanl.gov). By comparing with Levenberg-Marquardt methods using standard linear inversion techniques such as QR or SVD methods, our Levenberg-Marquardt method yields a speed-up ratio on the order of to in a multicore computational environment. Therefore, our new inverse modeling method is a powerful tool for characterizing subsurface heterogeneity for moderate to large-scale problems.},
+  comment  = {https://mads.lanl.gov/
+https://github.com/SmartTensors/SmartML.jl},
+  doi      = {https://doi.org/10.1002/2016WR019028},
+  eprint   = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016WR019028},
+  groups   = {paper-with-code, GPL-3.0, compat-with-LTS, registered-package},
+  keywords = {hydraulic inverse modeling, Levenberg-Marquardt method, dimensionality reduction, Krylov subspace approximation, subspace recycling, LSQR iterative method},
+  url      = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016WR019028},
+}
+
+@Article{Gould2016a,
+  author    = {Gould, Russell and Bassen, David M and Chakrabarti, Anirikh and Varner, Jeffrey D and Butcher, Jonathan},
+  journal   = {PLoS Computational Biology},
+  title     = {Population heterogeneity in the epithelial to mesenchymal transition is controlled by NFAT and phosphorylated Sp1},
+  year      = {2016},
+  number    = {12},
+  pages     = {e1005251},
+  volume    = {12},
+  abstract  = {Epithelial to mesenchymal transition (EMT) is an essential differentiation program during tissue morphogenesis and remodeling. EMT is induced by soluble transforming growth factor β (TGF-β) family members, and restricted by vascular endothelial growth factor family members. While many downstream molecular regulators of EMT have been identified, these have been largely evaluated individually without considering potential crosstalk. In this study, we created an ensemble of dynamic mathematical models describing TGF-β induced EMT to better understand the operational hierarchy of this complex molecular program. We used ordinary differential equations (ODEs) to describe the transcriptional and post-translational regulatory events driving EMT. Model parameters were estimated from multiple data sets using multiobjective optimization, in combination with cross-validation. TGF-β exposure drove the model population toward a mesenchymal phenotype, while an epithelial phenotype was enhanced following vascular endothelial growth factor A (VEGF-A) exposure. Simulations predicted that the transcription factors phosphorylated SP1 and NFAT were master regulators promoting or inhibiting EMT, respectively. Surprisingly, simulations also predicted that a cellular population could exhibit phenotypic heterogeneity (characterized by a significant fraction of the population with both high epithelial and mesenchymal marker expression) if treated simultaneously with TGF-β and VEGF-A. We tested this prediction experimentally in both MCF10A and DLD1 cells and found that upwards of 45% of the cellular population acquired this hybrid state in the presence of both TGF-β and VEGF-A. We experimentally validated the predicted NFAT/Sp1 signaling axis for each phenotype response. Lastly, we found that cells in the hybrid state had significantly different functional behavior when compared to VEGF-A or TGF-β treatment alone. Together, these results establish a predictive mechanistic model of EMT susceptibility, and potentially reveal a novel signaling axis which regulates carcinoma progression through an EMT versus tubulogenesis response.},
+  comment   = {https://github.com/varnerlab/Reduced_EMT_Model},
+  groups    = {paper-with-code, MIT, script, Open Access},
+  publisher = {Public Library of Science San Francisco, CA USA},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
