@@ -7,19 +7,20 @@
 + [Bezanson: Julia: A fresh approach to numerical computing - Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=40000005&sciodt=0,22&cites=12373977815425691465)
 
 
-paper count, [not include `arXiv`][no-arxiv]:
+Citing Count, [not include `arXiv`][no-arxiv]:
 ```csv
 year,raw count
-Any time,2690
-2023-06,270
-2022,731
-2021,548
-2020,427
-2019,313
-2018,211
-2017,102
-2016,32
-2015,13
+AllTime-202405,3480
+202405,275
+2023,772
+2022,724
+2021,547
+2020,422
+2019,322
+2018,205
+2017,103
+2016,39
+2015,15
 2014,0
 ```
 
