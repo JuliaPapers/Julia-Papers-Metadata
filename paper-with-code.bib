@@ -84,6 +84,26 @@
 }
 
  
+@Article{Gastelen2024,
+  author   = {van Gastelen, T. and Edeling, W. and Sanderse, B.},
+  journal  = {Journal of Computational Physics},
+  title    = {Energy-conserving neural network for turbulence closure modeling},
+  year     = {2024},
+  issn     = {0021-9991},
+  month    = jul,
+  pages    = {113003},
+  volume   = {508},
+  abstract = {In turbulence modeling, we are concerned with finding closure models that represent the effect of the subgrid scales on the resolved scales. Recent approaches gravitate towards machine learning techniques to construct such models. However, the stability of machine-learned closure models and their abidance by physical structure (e.g. symmetries, conservation laws) are still open problems. To tackle both issues, we take the ‘discretize first, filter next’ approach. In this approach we apply a spatial averaging filter to existing fine-grid discretizations. The main novelty is that we introduce an additional set of equations which dynamically model the energy of the subgrid scales. Having an estimate of the energy of the subgrid scales, we can use the concept of energy conservation to derive stability. The subgrid energy containing variables is determined via a data-driven technique. The closure model is used to model the interaction between the filtered quantities and the subgrid energy. Therefore the total energy should be conserved. Abiding by this conservation law yields guaranteed stability of the system. In this work, we propose a novel skew-symmetric convolutional neural network architecture that satisfies this law. The result is that stability is guaranteed, independent of the weights and biases of the network. Importantly, as our framework allows for energy exchange between resolved and subgrid scales it can model backscatter. To model dissipative systems (e.g. viscous flows), the framework is extended with a diffusive component. The introduced neural network architecture is constructed such that it also satisfies momentum conservation. We apply the new methodology to both the viscous Burgers' equation and the Korteweg-De Vries equation in 1D. The novel architecture displays superior stability properties when compared to a vanilla convolutional neural network.},
+  comment  = {https://github.com/tobyvg/ECNCM_1D},
+  doi      = {10.1016/j.jcp.2024.113003},
+  file     = {ScienceDirect Full Text PDF:https\://www.sciencedirect.com/science/article/pii/S0021999124002523/pdfft?download=true:application/pdf},
+  groups   = {paper-with-code, MIT, v1.0+, unregistered-package},
+  keywords = {Turbulence modeling, Neural networks, Energy conservation, Structure preservation, Burgers' equation, Korteweg-de Vries equation},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0021999124002523},
+  urldate  = {2024-11-24},
+}
+
+ 
 @Article{Ju2024,
   author    = {Ju, Robert J. and Falconer, Alistair D. and Schmidt, Christanny J. and Enriquez Martinez, Marco A. and Dean, Kevin M. and Fiolka, Reto P. and Sester, David P. and Nobis, Max and Timpson, Paul and Lomakin, Alexis J. and Danuser, Gaudenz and White, Melanie D. and Haass, Nikolas K. and Oelz, Dietmar B. and Stehbens, Samantha J.},
   journal   = {Nature Cell Biology},
