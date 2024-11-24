@@ -195,6 +195,28 @@
 }
 
  
+@Article{Song2024,
+  author    = {Song, Yingkai and Khan, Kamil A.},
+  journal   = {Optimization Methods and Software},
+  title     = {Computing subgradients of convex relaxations for solutions of parametric ordinary differential equations},
+  year      = {2024},
+  issn      = {1055-6788},
+  month     = may,
+  number    = {0},
+  pages     = {1--43},
+  volume    = {0},
+  abstract  = {A novel subgradient evaluation method is proposed for nonsmooth convex relaxations of parametric solutions of ordinary differential equations (ODEs) arising in global dynamic optimization, assuming that the relaxations always lie strictly within interval bounds during integration. We argue that this assumption is reasonable in practice. These subgradients are computed as the unique solution of an auxiliary parametric affine ODE, analogous to classical forward/tangent sensitivity evaluation methods for smooth dynamic systems. Unlike established subgradient evaluation approaches for nonsmooth dynamic systems, this new method does not require smoothness or transversality assumptions, and is compatible with existing subgradient evaluation methods for closed-form convex functions, as implemented in subgradient evaluation software such as EAGO.jl and MC++. Moreover, we show that a subgradient for a lower-bounding problem in global dynamic optimization can be directly evaluated using reverse/adjoint sensitivity analysis, which may reduce the overall computational effort for an overarching global optimization method. Numerical examples are presented, based on a proof-of-concept implementation in Julia.},
+  comment   = {https://github.com/kamilkhanlab/convex-ode-subgradients},
+  doi       = {10.1080/10556788.2024.2346641},
+  file      = {Full Text PDF:https\://www.tandfonline.com/doi/pdf/10.1080/10556788.2024.2346641:application/pdf},
+  groups    = {available-upon-request, MIT, script, v1.0+},
+  keywords  = {Global dynamic optimization, parametric ODE systems, subgradients, adjoint sensitivity analysis, convex relaxations, 90C26, 49M20, 49J52, 26D10},
+  publisher = {Taylor \& Francis},
+  url       = {https://doi.org/10.1080/10556788.2024.2346641},
+  urldate   = {2024-11-24},
+}
+
+ 
 @Article{Stranden2024,
   author   = {Strandén, Ismo and Mäntysaari, Esa A. and Lidauer, Martin H. and Thompson, Robin and Gao, Hongding},
   journal  = {Genetics Selection Evolution},
