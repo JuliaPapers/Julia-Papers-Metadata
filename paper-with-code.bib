@@ -104,6 +104,28 @@
 }
 
  
+@Article{Heide2024,
+  author    = {van der Heide, Oscar and van den Berg, Cornelis A. T. and Sbrizzi, Alessandro},
+  journal   = {Magnetic Resonance in Medicine},
+  title     = {{GPU}-accelerated {Bloch} simulations and {MR}-{STAT} reconstructions using the {Julia} programming language},
+  year      = {2024},
+  issn      = {1522-2594},
+  number    = {2},
+  pages     = {618--630},
+  volume    = {92},
+  abstract  = {Purpose MR-STAT is a relatively new multiparametric quantitative MRI technique in which quantitative paramater maps are obtained by solving a large-scale nonlinear optimization problem. Managing reconstruction times is one of the main challenges of MR-STAT. In this work we leverage GPU hardware to reduce MR-STAT reconstruction times. A highly optimized, GPU-compatible Bloch simulation toolbox is developed as part of this work that can be utilized for other quantitative MRI techniques as well. Methods The Julia programming language was used to develop a flexible yet highly performant and GPU-compatible Bloch simulation toolbox called BlochSimulators.jl. The runtime performance of the toolbox is benchmarked against other Bloch simulation toolboxes. Furthermore, a (partially matrix-free) modification of a previously presented (matrix-free) MR-STAT reconstruction algorithm is proposed and implemented using the Julia language on GPU hardware. The proposed algorithm is combined with BlochSimulators.jl and the resulting MR-STAT reconstruction times on GPU hardware are compared to previously presented MR-STAT reconstruction times. Results The BlochSimulators.jl package demonstrates superior runtime performance on both CPU and GPU hardware when compared to other existing Bloch simulation toolboxes. The GPU-accelerated partially matrix-free MR-STAT reconstruction algorithm, which relies on BlochSimulators.jl, allows for reconstructions of 68 seconds per two-dimensional (2D slice). Conclusion By combining the proposed Bloch simulation toolbox and the partially matrix-free reconstruction algorithm, 2D MR-STAT reconstructions can be performed in the order of one minute on a modern GPU card. The Bloch simulation toolbox can be utilized for other quantitative MRI techniques as well, for example for online dictionary generation for MR Fingerprinting.},
+  comment   = {https://github.com/oscarvanderheide/BlochSimulators.jl},
+  copyright = {© 2024 The Authors. Magnetic Resonance in Medicine published by Wiley Periodicals LLC on behalf of International Society for Magnetic Resonance in Medicine.},
+  doi       = {10.1002/mrm.30074},
+  file      = {Full Text PDF:https\://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.30074:application/pdf},
+  groups    = {paper-with-code, MIT, unregistered-package, v1.0+},
+  keywords  = {Bloch simulations, CUDA, Julia, MR-STAT, quantitative MRI},
+  language  = {en},
+  url       = {https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.30074},
+  urldate   = {2024-11-24},
+}
+
+ 
 @Article{Ibrahim2024,
   author   = {Ibrahim, Abdulkarim Hassan and Alshahrani, Mohammed and Al-Homidan, Suliman},
   journal  = {Numerical Algorithms},
