@@ -130,6 +130,21 @@
   urldate  = {2024-11-24},
 }
 
+@Article{SwierczekJereczek2024,
+  author    = {Swierczek-Jereczek, Jan and Montoya, Marisa and Latychev, Konstantin and Robinson, Alexander and Alvarez-Solas, Jorge and Mitrovica, Jerry},
+  journal   = {Geoscientific Model Development},
+  title     = {FastIsostasy v1. 0--a regional, accelerated 2D glacial isostatic adjustment (GIA) model accounting for the lateral variability of the solid Earth},
+  year      = {2024},
+  number    = {13},
+  pages     = {5263--5290},
+  volume    = {17},
+  abstract  = {The vast majority of ice-sheet modelling studies rely on simplified representations of the glacial isostatic adjustment (GIA), which, among other limitations, do not account for lateral variations in the lithospheric thickness and upper-mantle viscosity. In studies of the last glacial cycle using 3D GIA models, this has however been shown to have major impacts on the dynamics of marine-based sectors of Antarctica, which are likely to be the greatest contributors to sea-level rise in the coming centuries. This gap in comprehensiveness is explained by the fact that 3D GIA models are computationally expensive, rarely open-source and require a complex coupling scheme. To close this gap between “best” and “tractable” GIA models, we propose FastIsostasy here, a regional GIA model capturing lateral variations in the lithospheric thickness and mantle viscosity. By means of fast Fourier transforms and a hybrid collocation scheme to solve its underlying partial differential equation, FastIsostasy can simulate 100 000 years of high-resolution bedrock displacement in only minutes of single-CPU computation, including the changes in sea-surface height due to mass redistribution. Despite its 2D grid, FastIsostasy parameterises the depth-dependent viscosity and therefore represents the depth dimension to a certain extent. FastIsostasy is benchmarked here against analytical, as well as 1D and 3D numerical solutions, and shows good agreement with them. For a simulation of the last glacial cycle, its mean and maximal error over time and space respectively yield less than 5 % and 16 % compared to a 3D GIA model over the regional solution domain. FastIsostasy is open-source, is documented with many examples and provides a straightforward interface for coupling to an ice-sheet model. The model is benchmarked here based on its implementation in Julia, while a Fortran version is also provided to allow for compatibility with most existing ice-sheet models. The Julia version provides additional features, including a vast library of adaptive time-stepping methods and GPU support.},
+  comment   = {https://github.com/JanJereczek/FastIsostasy.jl},
+  doi       = {10.5194/gmd-17-5263-2024},
+  groups    = {paper-with-code, GPL-3.0, unregistered-package, v1.0+},
+  publisher = {Copernicus Publications G{\"o}ttingen, Germany},
+}
+
  
 @Article{Venkatesh2024,
   author    = {Venkatesh, Samvida S. and Ganjgahi, Habib and Palmer, Duncan S. and Coley, Kayesha and Linchangco, Gregorio V. and Hui, Qin and Wilson, Peter and Ho, Yuk-Lam and Cho, Kelly and Arumäe, Kadri and Wittemans, Laura B. L. and Nellåker, Christoffer and Vainik, Uku and Sun, Yan V. and Holmes, Chris and Lindgren, Cecilia M. and Nicholson, George},
